@@ -25,7 +25,6 @@ library(RColorBrewer)
 library(ROCR)
 library(rattle)
 
-setwd("C:/Users/markw/Zomalex Ltd/OneDrive - Zomalex Ltd/Demos/Quote ML Demo")
 getwd()
 
 df <- read.csv(file = "Bond Quote Data.csv", header = TRUE)
