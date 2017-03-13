@@ -27,7 +27,7 @@ library(rattle)
 
 getwd()
 
-df <- read.csv(file = "Bond Quote Data.csv", header = TRUE)
+df <- read.csv(file = "Quote Data.csv", header = TRUE)
 
 str(df)
 

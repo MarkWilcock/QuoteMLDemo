@@ -1,0 +1,131 @@
+---
+title: "Bond Quote Example Walkthrough"
+output: html_document
+---
+
+This is a spike to test using ML algorithms against a simulated financial trading dataset
+
+**Use case:**
+ 
+  The bank receives requests for quotes (RFQ) for certain sovereign bonds.  
+  The bank has to quote both bid and offer prces but does not know whether counterparty is wanting to 
+  buy or sell until.
+  Purpose of the ML model is to predict whether quote is likely to result in a buy order or sell order 
+  i.e.the intent of the counterparty when requesting the quote
+  based on some details about the counterparty, the bond and the time of day and the day   
+  (since there is some inkling that counterpartoes may have different behaviour at the end of the week or month).
+  This is a two class (binary) classifier.
+  One attractive feature is that the split of the classes is even - overall the bank expects  
+  RFQs to crystallise into approximately 50% buy, 50% sell order
+  This is unlike many financial use cases e.g. fraud where the classes are very unbalanced.
+
+
+``````{r, echo=FALSE}
+library(readxl)
+library(dplyr)
+library(rpart)
+library(rpart.plot)
+library(RColorBrewer)
+library(ROCR)
+library('rattle')
+```
+
+```{r}
+```
+
+Load the source data in a CSV file into a dataframe
+
+```{r}
+df <- read.csv(file = "Quote Data.csv", header = TRUE)
+str(df)
+```
+
+Split data into 70% training and 30% test 
+
+```{r}
+set.seed(1234)
+# create a new column - each row takes a uniform random variable between 0 and 1
+df <- mutate(df, tempval = runif(nrow(df)))
+df.train <- filter(df, tempval <= 0.7) %>% select(-tempval)
+df.test <- filter(df, tempval > 0.7) %>% select(-tempval)
+```
+
+Let's create a decision tree model
+
+```{r}
+decision.tree.model <-
+rpart(BuySell ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth +
+        CounterpartyCountry + CounterpartySector + 
+        + BondCountry + BondTenor,
+        data = df.train,
+        method = "class")
+
+fancyRpartPlot(decision.tree.model, cex = 0.6)
+
+# let's use the decision tree model to predict
+(decision.tree.prediction <-
+  predict(decision.tree.model, df.test, type = "class"))
+
+df.test <- mutate(df.test, BuySell.dtree = decision.tree.prediction)
+
+
+# count of true positives  - can go further to vcalculate  accuracy  etc manually
+count.tp <- nrow(filter(df.test, BuySell == 'Buy' & BuySell.dtree == 'Buy'))
+count.fp <- nrow(filter(df.test, BuySell == 'Sell' & BuySell.dtree == 'Buy'))
+count.fn <- nrow(filter(df.test, BuySell == 'Buy' & BuySell.dtree == 'Sell'))
+count.tn <- nrow(filter(df.test, BuySell == 'Sell' & BuySell.dtree == 'Sell'))
+count.all <- nrow(df.test)
+
+(accuracy <- (count.tp + count.tn) / count.all)
+
+#precision - what % of items identified were actually in the class
+precision = count.tp / (count.tp + count.fp)
+
+#recall aka sensitivity -  what % of items in the class were identified by the classifier
+recall = count.tp / (count.tp + count.fn)
+
+specificity = count.tn / (count.tn + count.fp)
+```
+
+Let's create an equivaluent logistic regression model
+
+```{r}
+logit.model <-
+  glm(BuySell ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth + 
+        BondCountry + BondTenor + 
+        CounterpartyCountry +  CounterpartySector,
+      data= df.train,
+      family = binomial(link='logit'))
+
+logit.prediction <- predict (logit.model, df.test, type='response')
+
+df.test <- mutate(df.test, BuySell.logit = ifelse(logit.prediction <= .5, 'Buy', 'Sell'))
+
+# count of true positives  - can go further to vcalculate  accuracy  etc manually
+count.tp.logit <- nrow(filter(df.test,  BuySell=='Buy' & BuySell.logit=='Buy'))
+count.fp.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Buy'))
+count.fn.logit <- nrow(filter(df.test,  BuySell=='Buy' & BuySell.logit=='Sell'))
+count.tn.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Sell'))
+
+(accuracy.logit <- (count.tp.logit + count.tn.logit) / count.all)
+
+```
+
+Now lets's create the ROC curve for the logistic model
+
+```{r}
+pred <- prediction(logit.prediction, df.test$BuySell)
+
+perf <- performance(pred, measure="tpr", x.measure = "fpr")
+
+options(repr.plot.width = 5, repr.plot.height = 3)
+plot(perf, col = rainbow(10), main = "Model performance")
+```
+
+
+
+```{r}
+```
+
+
+
