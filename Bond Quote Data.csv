@@ -1,0 +1,1001 @@
+TradeKey,TradeDate,TimeOfDay,BondCountry,BondTenor,CounterpartyCountry,CounterpartySector,IsEndOfWeek,IsEndOfMonth,BuySell
+1,2016-12-01,PM,JP,5y,UK,Asset Management,No,No,Sell
+2,2016-12-02,AM,UK,5y,JP,Asset Management,Yes,No,Buy
+3,2016-12-01,PM,FR,6m,US,Central Bank,No,No,Sell
+4,2016-11-29,PM,JP,10y,DE,Pension Fund,No,No,Buy
+5,2016-11-28,AM,DE,6m,JP,Asset Management,No,No,Sell
+6,2016-11-28,PM,FR,5y,DE,Asset Management,No,No,Buy
+7,2016-11-28,AM,DE,1y,UK,Asset Management,No,No,Sell
+8,2016-12-02,PM,FR,5y,JP,Asset Management,Yes,No,Buy
+9,2016-11-28,AM,UK,5y,DE,Asset Management,No,No,Buy
+10,2016-12-01,PM,UK,1y,DE,Pension Fund,No,No,Buy
+11,2016-12-01,PM,FR,6m,DE,Asset Management,No,No,Sell
+12,2016-12-01,PM,JP,30y,JP,Asset Management,No,No,Buy
+13,2016-11-28,PM,FR,10y,JP,Pension Fund,No,No,Buy
+14,2016-12-02,AM,FR,6m,US,Central Bank,Yes,No,Sell
+15,2016-12-02,PM,JP,30y,DE,Broker,Yes,No,Buy
+16,2016-12-01,AM,DE,5y,JP,Asset Management,No,No,Buy
+17,2016-12-01,AM,JP,5y,JP,Asset Management,No,No,Buy
+18,2016-11-30,AM,US,30y,US,Central Bank,No,Yes,Buy
+19,2016-12-02,AM,JP,6m,DE,Central Bank,Yes,No,Sell
+20,2016-12-01,AM,FR,6m,UK,Central Bank,No,No,Sell
+21,2016-11-28,PM,US,30y,DE,Central Bank,No,No,Buy
+22,2016-12-01,AM,US,6m,JP,Pension Fund,No,No,Buy
+23,2016-12-01,AM,JP,10y,DE,Asset Management,No,No,Buy
+24,2016-11-30,AM,DE,1y,DE,Asset Management,No,Yes,Sell
+25,2016-11-28,AM,UK,5y,FR,Pension Fund,No,No,Buy
+26,2016-12-02,AM,FR,3m,DE,Asset Management,Yes,No,Buy
+27,2016-11-29,AM,JP,30y,UK,Pension Fund,No,No,Buy
+28,2016-12-02,AM,JP,30y,JP,Central Bank,Yes,No,Buy
+29,2016-12-01,AM,US,3m,US,Central Bank,No,No,Sell
+30,2016-12-01,PM,UK,6m,UK,Asset Management,No,No,Buy
+31,2016-11-30,AM,US,10y,DE,Central Bank,No,Yes,Buy
+32,2016-11-28,PM,DE,5y,US,Central Bank,No,No,Sell
+33,2016-11-30,AM,JP,5y,JP,Asset Management,No,Yes,Sell
+34,2016-11-29,AM,UK,5y,DE,Asset Management,No,No,Buy
+35,2016-12-01,AM,US,6m,JP,Asset Management,No,No,Buy
+36,2016-11-28,AM,US,6m,US,Asset Management,No,No,Buy
+37,2016-11-30,PM,DE,5y,US,Central Bank,No,Yes,Sell
+38,2016-12-01,AM,FR,10y,UK,Pension Fund,No,No,Buy
+39,2016-11-28,PM,FR,5y,JP,Asset Management,No,No,Buy
+40,2016-11-29,AM,FR,5y,UK,Central Bank,No,No,Sell
+41,2016-11-28,PM,US,6m,US,Asset Management,No,No,Sell
+42,2016-11-30,AM,FR,3m,US,Central Bank,No,Yes,Sell
+43,2016-11-28,AM,DE,1y,JP,Asset Management,No,No,Sell
+44,2016-11-29,AM,JP,30y,US,Asset Management,No,No,Buy
+45,2016-11-30,AM,UK,5y,JP,Broker,No,Yes,Buy
+46,2016-11-29,AM,DE,5y,DE,Asset Management,No,No,Sell
+47,2016-11-29,PM,US,10y,JP,Central Bank,No,No,Buy
+48,2016-11-30,AM,DE,5y,UK,Asset Management,No,Yes,Sell
+49,2016-12-01,PM,UK,1m,JP,Pension Fund,No,No,Buy
+50,2016-12-02,AM,UK,1y,DE,Broker,Yes,No,Buy
+51,2016-11-30,AM,US,10y,JP,Asset Management,No,Yes,Buy
+52,2016-11-28,PM,FR,10y,JP,Asset Management,No,No,Buy
+53,2016-12-02,AM,DE,5y,DE,Broker,Yes,No,Sell
+54,2016-11-30,PM,FR,6m,DE,Asset Management,No,Yes,Sell
+55,2016-11-28,AM,UK,6m,US,Central Bank,No,No,Buy
+56,2016-11-29,PM,UK,1m,JP,Asset Management,No,No,Buy
+57,2016-11-29,PM,US,6m,JP,Asset Management,No,No,Buy
+58,2016-11-30,AM,JP,10y,US,Central Bank,No,Yes,Sell
+59,2016-11-29,AM,DE,5y,JP,Asset Management,No,No,Buy
+60,2016-12-02,AM,DE,3m,DE,Asset Management,Yes,No,Buy
+61,2016-11-28,PM,UK,1y,JP,Pension Fund,No,No,Buy
+62,2016-12-01,PM,JP,1m,US,Asset Management,No,No,Sell
+63,2016-11-30,PM,DE,5y,UK,Pension Fund,No,Yes,Sell
+64,2016-12-02,PM,UK,6m,JP,Asset Management,Yes,No,Buy
+65,2016-11-30,PM,DE,1y,DE,Broker,No,Yes,Sell
+66,2016-11-29,AM,FR,5y,JP,Pension Fund,No,No,Buy
+67,2016-12-02,PM,UK,5y,DE,Asset Management,Yes,No,Buy
+68,2016-12-01,PM,JP,1m,DE,Asset Management,No,No,Buy
+69,2016-11-29,AM,JP,6m,JP,Pension Fund,No,No,Sell
+70,2016-12-02,PM,DE,5y,DE,Asset Management,Yes,No,Sell
+71,2016-11-29,AM,JP,5y,FR,Central Bank,No,No,Sell
+72,2016-12-01,AM,JP,5y,DE,Broker,No,No,Sell
+73,2016-11-28,PM,JP,1m,DE,Asset Management,No,No,Buy
+74,2016-11-29,AM,FR,3m,UK,Pension Fund,No,No,Buy
+75,2016-12-02,PM,US,6m,UK,Asset Management,Yes,No,Sell
+76,2016-12-02,AM,US,1y,DE,Asset Management,Yes,No,Buy
+77,2016-11-28,AM,JP,30y,DE,Pension Fund,No,No,Buy
+78,2016-12-01,PM,FR,10y,US,Central Bank,No,No,Sell
+79,2016-12-02,PM,DE,3m,DE,Asset Management,Yes,No,Sell
+80,2016-12-01,PM,UK,1y,UK,Asset Management,No,No,Sell
+81,2016-12-02,PM,DE,6m,JP,Central Bank,Yes,No,Sell
+82,2016-11-29,PM,DE,6m,DE,Asset Management,No,No,Sell
+83,2016-12-02,AM,UK,5y,JP,Broker,Yes,No,Buy
+84,2016-11-30,AM,FR,5y,US,Central Bank,No,Yes,Sell
+85,2016-11-28,AM,JP,5y,JP,Asset Management,No,No,Buy
+86,2016-11-28,AM,FR,3m,DE,Pension Fund,No,No,Buy
+87,2016-11-30,PM,UK,1y,DE,Pension Fund,No,Yes,Buy
+88,2016-12-01,AM,JP,10y,JP,Central Bank,No,No,Buy
+89,2016-11-28,AM,JP,1y,FR,Central Bank,No,No,Sell
+90,2016-12-01,PM,JP,10y,DE,Asset Management,No,No,Buy
+91,2016-11-28,PM,JP,30y,UK,Pension Fund,No,No,Buy
+92,2016-12-01,PM,DE,3m,FR,Pension Fund,No,No,Sell
+93,2016-12-02,PM,FR,10y,FR,Central Bank,Yes,No,Buy
+94,2016-11-30,PM,DE,3m,FR,Pension Fund,No,Yes,Sell
+95,2016-12-01,PM,JP,1y,DE,Asset Management,No,No,Sell
+96,2016-11-30,AM,FR,6m,FR,Pension Fund,No,Yes,Sell
+97,2016-12-02,AM,JP,6m,DE,Asset Management,Yes,No,Sell
+98,2016-11-28,AM,UK,1m,JP,Broker,No,No,Buy
+99,2016-11-28,PM,JP,10y,JP,Asset Management,No,No,Buy
+100,2016-11-28,AM,UK,1y,UK,Pension Fund,No,No,Buy
+101,2016-12-01,PM,US,30y,JP,Broker,No,No,Buy
+102,2016-11-30,AM,JP,10y,DE,Asset Management,No,Yes,Buy
+103,2016-12-01,AM,US,30y,DE,Pension Fund,No,No,Buy
+104,2016-12-02,PM,UK,1y,DE,Pension Fund,Yes,No,Buy
+105,2016-12-02,PM,JP,5y,JP,Broker,Yes,No,Sell
+106,2016-11-30,AM,FR,10y,JP,Pension Fund,No,Yes,Buy
+107,2016-11-30,PM,DE,6m,JP,Asset Management,No,Yes,Sell
+108,2016-12-02,PM,DE,1y,JP,Broker,Yes,No,Sell
+109,2016-11-29,AM,UK,5y,JP,Asset Management,No,No,Buy
+110,2016-11-28,PM,UK,1y,US,Central Bank,No,No,Sell
+111,2016-12-02,PM,FR,5y,DE,Asset Management,Yes,No,Buy
+112,2016-11-28,AM,DE,3m,US,Central Bank,No,No,Sell
+113,2016-11-28,AM,FR,10y,JP,Broker,No,No,Buy
+114,2016-12-01,PM,UK,1y,DE,Pension Fund,No,No,Buy
+115,2016-11-30,AM,US,1y,DE,Asset Management,No,Yes,Sell
+116,2016-11-28,AM,US,1y,JP,Asset Management,No,No,Buy
+117,2016-12-02,AM,DE,5y,DE,Asset Management,Yes,No,Buy
+118,2016-11-30,AM,UK,5y,DE,Asset Management,No,Yes,Buy
+119,2016-12-01,PM,FR,5y,US,Asset Management,No,No,Sell
+120,2016-11-30,PM,DE,1y,JP,Asset Management,No,Yes,Sell
+121,2016-11-30,AM,FR,5y,UK,Central Bank,No,Yes,Sell
+122,2016-12-02,AM,US,3m,DE,Central Bank,Yes,No,Buy
+123,2016-12-02,AM,JP,1y,US,Central Bank,Yes,No,Sell
+124,2016-11-28,PM,UK,6m,UK,Pension Fund,No,No,Buy
+125,2016-11-30,PM,JP,1m,JP,Broker,No,Yes,Buy
+126,2016-11-29,AM,UK,1y,DE,Broker,No,No,Sell
+127,2016-11-29,AM,DE,1y,US,Central Bank,No,No,Sell
+128,2016-12-02,PM,FR,6m,DE,Broker,Yes,No,Sell
+129,2016-12-02,PM,JP,30y,US,Central Bank,Yes,No,Buy
+130,2016-11-29,PM,FR,10y,UK,Asset Management,No,No,Sell
+131,2016-11-30,PM,DE,5y,JP,Asset Management,No,Yes,Buy
+132,2016-12-01,PM,JP,10y,DE,Central Bank,No,No,Sell
+133,2016-11-28,AM,UK,1m,US,Asset Management,No,No,Buy
+134,2016-11-30,PM,UK,1y,UK,Asset Management,No,Yes,Sell
+135,2016-12-02,PM,DE,5y,DE,Broker,Yes,No,Sell
+136,2016-11-30,AM,DE,5y,DE,Central Bank,No,Yes,Sell
+137,2016-12-01,AM,FR,6m,DE,Broker,No,No,Sell
+138,2016-11-28,AM,FR,10y,US,Central Bank,No,No,Sell
+139,2016-11-28,PM,DE,5y,JP,Broker,No,No,Buy
+140,2016-11-28,PM,FR,6m,UK,Central Bank,No,No,Sell
+141,2016-12-02,PM,US,3m,JP,Asset Management,Yes,No,Buy
+142,2016-12-02,AM,DE,5y,US,Central Bank,Yes,No,Sell
+143,2016-11-30,PM,DE,1y,DE,Asset Management,No,Yes,Sell
+144,2016-11-28,PM,FR,10y,UK,Asset Management,No,No,Sell
+145,2016-11-29,AM,UK,6m,DE,Asset Management,No,No,Buy
+146,2016-11-29,PM,FR,3m,JP,Asset Management,No,No,Buy
+147,2016-11-30,PM,JP,1y,DE,Central Bank,No,Yes,Sell
+148,2016-11-30,AM,DE,6m,JP,Broker,No,Yes,Sell
+149,2016-12-01,PM,JP,30y,US,Central Bank,No,No,Sell
+150,2016-12-02,AM,FR,10y,US,Central Bank,Yes,No,Buy
+151,2016-11-30,PM,JP,5y,JP,Asset Management,No,Yes,Sell
+152,2016-12-01,AM,FR,3m,JP,Asset Management,No,No,Buy
+153,2016-11-29,PM,JP,6m,DE,Asset Management,No,No,Sell
+154,2016-11-28,AM,JP,30y,US,Asset Management,No,No,Buy
+155,2016-12-02,PM,JP,1m,FR,Pension Fund,Yes,No,Buy
+156,2016-11-28,PM,FR,10y,JP,Broker,No,No,Buy
+157,2016-12-02,PM,DE,6m,US,Central Bank,Yes,No,Sell
+158,2016-11-29,PM,JP,10y,DE,Asset Management,No,No,Buy
+159,2016-11-28,PM,JP,6m,DE,Asset Management,No,No,Sell
+160,2016-11-29,AM,DE,5y,JP,Broker,No,No,Buy
+161,2016-11-29,AM,FR,10y,DE,Asset Management,No,No,Buy
+162,2016-11-28,AM,UK,5y,DE,Central Bank,No,No,Buy
+163,2016-11-29,AM,FR,5y,JP,Asset Management,No,No,Buy
+164,2016-12-01,PM,US,30y,DE,Broker,No,No,Buy
+165,2016-12-02,PM,UK,1y,FR,Pension Fund,Yes,No,Buy
+166,2016-11-28,PM,FR,5y,JP,Broker,No,No,Buy
+167,2016-12-02,PM,US,10y,JP,Broker,Yes,No,Buy
+168,2016-11-30,PM,DE,5y,JP,Asset Management,No,Yes,Buy
+169,2016-12-01,AM,DE,5y,JP,Central Bank,No,No,Buy
+170,2016-11-28,PM,UK,1m,DE,Asset Management,No,No,Buy
+171,2016-11-29,AM,FR,6m,DE,Central Bank,No,No,Sell
+172,2016-12-02,AM,DE,6m,DE,Central Bank,Yes,No,Sell
+173,2016-12-01,AM,US,6m,UK,Pension Fund,No,No,Buy
+174,2016-12-01,PM,DE,5y,FR,Pension Fund,No,No,Sell
+175,2016-12-02,PM,JP,10y,UK,Asset Management,Yes,No,Sell
+176,2016-12-02,AM,FR,6m,JP,Central Bank,Yes,No,Buy
+177,2016-11-28,PM,FR,6m,JP,Asset Management,No,No,Buy
+178,2016-12-02,PM,DE,6m,JP,Central Bank,Yes,No,Sell
+179,2016-11-28,PM,FR,10y,JP,Asset Management,No,No,Buy
+180,2016-11-30,PM,JP,1m,DE,Broker,No,Yes,Sell
+181,2016-12-02,AM,FR,10y,JP,Central Bank,Yes,No,Buy
+182,2016-12-01,PM,JP,10y,US,Central Bank,No,No,Sell
+183,2016-11-29,AM,JP,30y,DE,Asset Management,No,No,Buy
+184,2016-11-28,PM,JP,1m,UK,Pension Fund,No,No,Buy
+185,2016-11-28,AM,FR,5y,JP,Broker,No,No,Buy
+186,2016-12-01,PM,JP,1y,JP,Asset Management,No,No,Sell
+187,2016-11-28,AM,JP,30y,DE,Central Bank,No,No,Buy
+188,2016-11-30,PM,FR,3m,DE,Asset Management,No,Yes,Sell
+189,2016-11-29,AM,DE,5y,US,Central Bank,No,No,Sell
+190,2016-11-29,PM,US,10y,US,Central Bank,No,No,Sell
+191,2016-11-28,AM,FR,10y,UK,Asset Management,No,No,Buy
+192,2016-11-30,PM,DE,5y,UK,Pension Fund,No,Yes,Sell
+193,2016-12-02,AM,JP,30y,FR,Central Bank,Yes,No,Buy
+194,2016-11-30,AM,FR,5y,DE,Broker,No,Yes,Sell
+195,2016-12-01,AM,FR,10y,DE,Asset Management,No,No,Buy
+196,2016-12-02,AM,UK,6m,UK,Asset Management,Yes,No,Buy
+197,2016-11-28,AM,DE,1y,US,Asset Management,No,No,Sell
+198,2016-12-02,PM,US,3m,UK,Asset Management,Yes,No,Buy
+199,2016-12-01,PM,JP,10y,US,Central Bank,No,No,Sell
+200,2016-12-01,PM,US,6m,FR,Pension Fund,No,No,Buy
+201,2016-11-30,PM,FR,5y,JP,Asset Management,No,Yes,Buy
+202,2016-12-02,PM,DE,1y,JP,Asset Management,Yes,No,Sell
+203,2016-11-30,PM,FR,10y,DE,Asset Management,No,Yes,Buy
+204,2016-12-02,PM,US,30y,JP,Broker,Yes,No,Buy
+205,2016-11-30,PM,DE,3m,UK,Pension Fund,No,Yes,Sell
+206,2016-11-29,AM,DE,5y,UK,Central Bank,No,No,Sell
+207,2016-12-01,AM,UK,5y,JP,Central Bank,No,No,Buy
+208,2016-12-02,PM,JP,30y,DE,Pension Fund,Yes,No,Buy
+209,2016-11-29,AM,UK,1y,UK,Asset Management,No,No,Buy
+210,2016-11-28,AM,JP,10y,JP,Asset Management,No,No,Buy
+211,2016-11-29,AM,UK,1m,DE,Asset Management,No,No,Buy
+212,2016-11-30,AM,FR,3m,US,Central Bank,No,Yes,Sell
+213,2016-11-29,PM,JP,10y,DE,Central Bank,No,No,Sell
+214,2016-12-01,PM,FR,5y,UK,Asset Management,No,No,Sell
+215,2016-11-29,AM,DE,3m,US,Central Bank,No,No,Sell
+216,2016-11-29,AM,UK,5y,UK,Central Bank,No,No,Sell
+217,2016-11-28,PM,UK,6m,FR,Pension Fund,No,No,Buy
+218,2016-11-29,AM,JP,1m,US,Central Bank,No,No,Sell
+219,2016-12-01,AM,UK,1m,UK,Pension Fund,No,No,Buy
+220,2016-12-02,PM,FR,10y,US,Central Bank,Yes,No,Sell
+221,2016-11-30,PM,UK,1y,UK,Asset Management,No,Yes,Sell
+222,2016-11-30,PM,FR,3m,DE,Asset Management,No,Yes,Sell
+223,2016-11-30,AM,UK,6m,UK,Central Bank,No,Yes,Sell
+224,2016-12-01,PM,JP,30y,DE,Pension Fund,No,No,Buy
+225,2016-11-30,PM,FR,5y,DE,Asset Management,No,Yes,Sell
+226,2016-11-30,PM,FR,5y,DE,Central Bank,No,Yes,Sell
+227,2016-12-01,PM,FR,5y,DE,Asset Management,No,No,Buy
+228,2016-12-01,AM,UK,1y,DE,Pension Fund,No,No,Buy
+229,2016-11-28,PM,FR,5y,US,Asset Management,No,No,Sell
+230,2016-11-30,PM,DE,3m,JP,Broker,No,Yes,Sell
+231,2016-11-29,PM,JP,1m,UK,Pension Fund,No,No,Buy
+232,2016-12-01,PM,DE,3m,FR,Pension Fund,No,No,Sell
+233,2016-11-30,AM,FR,10y,US,Central Bank,No,Yes,Sell
+234,2016-12-02,PM,UK,1y,DE,Pension Fund,Yes,No,Buy
+235,2016-11-30,PM,JP,10y,US,Asset Management,No,Yes,Sell
+236,2016-11-29,AM,US,6m,JP,Central Bank,No,No,Buy
+237,2016-11-29,AM,UK,6m,FR,Central Bank,No,No,Buy
+238,2016-11-28,AM,JP,1y,DE,Pension Fund,No,No,Sell
+239,2016-11-28,AM,DE,5y,DE,Pension Fund,No,No,Buy
+240,2016-11-30,AM,DE,1y,US,Central Bank,No,Yes,Sell
+241,2016-12-01,AM,JP,5y,US,Central Bank,No,No,Sell
+242,2016-11-30,AM,JP,1y,JP,Pension Fund,No,Yes,Sell
+243,2016-11-28,AM,DE,5y,JP,Asset Management,No,No,Buy
+244,2016-11-28,AM,US,6m,US,Central Bank,No,No,Sell
+245,2016-11-30,PM,US,10y,DE,Pension Fund,No,Yes,Buy
+246,2016-11-29,PM,JP,30y,FR,Central Bank,No,No,Buy
+247,2016-12-02,PM,DE,5y,US,Central Bank,Yes,No,Sell
+248,2016-12-01,AM,UK,6m,JP,Asset Management,No,No,Buy
+249,2016-11-29,PM,UK,6m,DE,Asset Management,No,No,Buy
+250,2016-11-28,PM,UK,1y,DE,Asset Management,No,No,Buy
+251,2016-12-01,PM,UK,1y,JP,Asset Management,No,No,Buy
+252,2016-12-02,AM,JP,5y,US,Central Bank,Yes,No,Sell
+253,2016-11-30,PM,US,1y,JP,Pension Fund,No,Yes,Buy
+254,2016-11-30,AM,FR,5y,US,Asset Management,No,Yes,Sell
+255,2016-11-29,AM,DE,5y,UK,Pension Fund,No,No,Buy
+256,2016-11-30,AM,DE,5y,JP,Pension Fund,No,Yes,Buy
+257,2016-12-02,PM,DE,1y,JP,Pension Fund,Yes,No,Sell
+258,2016-11-29,PM,UK,6m,UK,Pension Fund,No,No,Buy
+259,2016-12-01,AM,FR,10y,JP,Central Bank,No,No,Buy
+260,2016-11-28,AM,JP,6m,DE,Asset Management,No,No,Sell
+261,2016-12-02,PM,US,6m,FR,Central Bank,Yes,No,Sell
+262,2016-12-01,PM,DE,5y,JP,Asset Management,No,No,Buy
+263,2016-12-01,AM,DE,5y,UK,Central Bank,No,No,Sell
+264,2016-11-30,AM,US,6m,JP,Asset Management,No,Yes,Buy
+265,2016-11-29,AM,UK,1m,DE,Central Bank,No,No,Buy
+266,2016-11-30,PM,DE,3m,UK,Pension Fund,No,Yes,Sell
+267,2016-11-28,PM,DE,6m,JP,Broker,No,No,Sell
+268,2016-12-01,AM,DE,5y,UK,Asset Management,No,No,Sell
+269,2016-12-02,AM,JP,1y,DE,Asset Management,Yes,No,Sell
+270,2016-11-28,AM,UK,5y,DE,Broker,No,No,Buy
+271,2016-12-01,PM,FR,3m,DE,Asset Management,No,No,Buy
+272,2016-11-28,AM,FR,10y,UK,Central Bank,No,No,Sell
+273,2016-11-30,AM,US,3m,JP,Central Bank,No,Yes,Buy
+274,2016-12-01,AM,FR,3m,US,Asset Management,No,No,Buy
+275,2016-11-30,AM,US,10y,JP,Asset Management,No,Yes,Buy
+276,2016-11-29,PM,UK,1y,US,Central Bank,No,No,Sell
+277,2016-11-28,AM,UK,6m,JP,Central Bank,No,No,Buy
+278,2016-11-29,PM,UK,5y,JP,Broker,No,No,Buy
+279,2016-11-30,PM,UK,1m,FR,Central Bank,No,Yes,Buy
+280,2016-11-29,AM,FR,10y,FR,Central Bank,No,No,Buy
+281,2016-11-29,AM,US,10y,DE,Central Bank,No,No,Buy
+282,2016-11-28,AM,UK,1y,UK,Asset Management,No,No,Buy
+283,2016-11-28,PM,JP,6m,JP,Broker,No,No,Sell
+284,2016-11-29,AM,UK,1y,FR,Pension Fund,No,No,Buy
+285,2016-11-28,PM,JP,30y,JP,Asset Management,No,No,Buy
+286,2016-11-30,AM,UK,5y,UK,Pension Fund,No,Yes,Buy
+287,2016-12-01,PM,UK,5y,US,Central Bank,No,No,Sell
+288,2016-12-01,PM,UK,6m,JP,Broker,No,No,Buy
+289,2016-12-01,PM,JP,10y,US,Asset Management,No,No,Sell
+290,2016-11-30,AM,US,1y,JP,Pension Fund,No,Yes,Buy
+291,2016-12-01,AM,DE,6m,DE,Pension Fund,No,No,Sell
+292,2016-11-28,AM,FR,6m,DE,Central Bank,No,No,Sell
+293,2016-11-30,PM,JP,10y,UK,Pension Fund,No,Yes,Sell
+294,2016-12-01,AM,UK,5y,DE,Broker,No,No,Buy
+295,2016-12-02,AM,UK,1y,JP,Broker,Yes,No,Buy
+296,2016-11-30,AM,FR,6m,UK,Asset Management,No,Yes,Sell
+297,2016-11-28,AM,DE,6m,UK,Pension Fund,No,No,Sell
+298,2016-12-01,PM,FR,10y,US,Asset Management,No,No,Buy
+299,2016-12-01,AM,FR,10y,DE,Central Bank,No,No,Buy
+300,2016-11-29,AM,DE,5y,JP,Asset Management,No,No,Buy
+301,2016-11-30,AM,UK,6m,UK,Pension Fund,No,Yes,Buy
+302,2016-12-02,AM,FR,3m,DE,Central Bank,Yes,No,Buy
+303,2016-12-02,PM,US,30y,JP,Pension Fund,Yes,No,Buy
+304,2016-11-29,AM,JP,30y,US,Asset Management,No,No,Buy
+305,2016-11-30,PM,JP,5y,US,Asset Management,No,Yes,Sell
+306,2016-11-29,PM,DE,5y,US,Central Bank,No,No,Sell
+307,2016-12-01,AM,FR,5y,DE,Asset Management,No,No,Buy
+308,2016-11-28,PM,JP,1y,JP,Broker,No,No,Sell
+309,2016-11-28,AM,US,1y,FR,Pension Fund,No,No,Buy
+310,2016-12-01,AM,FR,5y,DE,Broker,No,No,Sell
+311,2016-11-28,AM,JP,6m,DE,Asset Management,No,No,Sell
+312,2016-11-28,AM,JP,30y,DE,Central Bank,No,No,Buy
+313,2016-11-29,PM,FR,6m,DE,Asset Management,No,No,Sell
+314,2016-12-02,PM,US,3m,DE,Asset Management,Yes,No,Buy
+315,2016-11-30,PM,FR,6m,DE,Asset Management,No,Yes,Sell
+316,2016-11-28,PM,US,3m,US,Central Bank,No,No,Sell
+317,2016-11-28,AM,JP,30y,UK,Central Bank,No,No,Sell
+318,2016-11-29,AM,JP,5y,UK,Asset Management,No,No,Sell
+319,2016-11-30,PM,FR,5y,JP,Asset Management,No,Yes,Buy
+320,2016-11-29,PM,US,30y,US,Asset Management,No,No,Buy
+321,2016-11-29,AM,JP,1y,JP,Broker,No,No,Sell
+322,2016-11-28,PM,UK,1y,FR,Pension Fund,No,No,Buy
+323,2016-11-28,PM,DE,5y,UK,Asset Management,No,No,Sell
+324,2016-11-30,PM,US,1y,US,Asset Management,No,Yes,Sell
+325,2016-11-30,PM,FR,5y,JP,Pension Fund,No,Yes,Buy
+326,2016-12-01,AM,DE,5y,US,Central Bank,No,No,Sell
+327,2016-12-02,AM,FR,6m,JP,Asset Management,Yes,No,Buy
+328,2016-11-30,PM,JP,1y,UK,Asset Management,No,Yes,Sell
+329,2016-12-01,PM,FR,10y,DE,Pension Fund,No,No,Buy
+330,2016-11-28,PM,FR,10y,US,Asset Management,No,No,Buy
+331,2016-12-02,AM,FR,3m,FR,Central Bank,Yes,No,Sell
+332,2016-12-02,AM,US,6m,JP,Asset Management,Yes,No,Buy
+333,2016-11-30,PM,US,10y,DE,Pension Fund,No,Yes,Buy
+334,2016-11-30,PM,JP,10y,DE,Central Bank,No,Yes,Sell
+335,2016-12-01,PM,FR,10y,DE,Broker,No,No,Sell
+336,2016-11-28,AM,JP,30y,US,Asset Management,No,No,Buy
+337,2016-11-28,AM,US,6m,DE,Pension Fund,No,No,Buy
+338,2016-11-29,AM,FR,5y,DE,Asset Management,No,No,Buy
+339,2016-11-30,PM,DE,3m,DE,Asset Management,No,Yes,Sell
+340,2016-11-28,AM,JP,1m,UK,Central Bank,No,No,Sell
+341,2016-11-28,PM,DE,3m,FR,Central Bank,No,No,Sell
+342,2016-11-30,AM,US,30y,JP,Central Bank,No,Yes,Buy
+343,2016-12-01,PM,DE,5y,DE,Asset Management,No,No,Sell
+344,2016-11-28,PM,UK,6m,US,Central Bank,No,No,Sell
+345,2016-11-30,PM,JP,5y,DE,Broker,No,Yes,Sell
+346,2016-11-30,AM,JP,30y,UK,Central Bank,No,Yes,Sell
+347,2016-12-02,PM,DE,5y,US,Asset Management,Yes,No,Sell
+348,2016-12-02,PM,FR,10y,DE,Asset Management,Yes,No,Buy
+349,2016-12-01,AM,JP,6m,UK,Central Bank,No,No,Sell
+350,2016-12-01,PM,DE,5y,DE,Pension Fund,No,No,Buy
+351,2016-12-01,PM,UK,5y,FR,Central Bank,No,No,Buy
+352,2016-12-01,PM,UK,1y,JP,Asset Management,No,No,Buy
+353,2016-11-28,AM,JP,1y,JP,Pension Fund,No,No,Sell
+354,2016-11-28,PM,FR,5y,FR,Pension Fund,No,No,Buy
+355,2016-11-30,AM,FR,3m,DE,Asset Management,No,Yes,Buy
+356,2016-11-28,AM,JP,5y,JP,Asset Management,No,No,Buy
+357,2016-11-28,AM,US,6m,US,Central Bank,No,No,Sell
+358,2016-12-02,PM,DE,1y,DE,Asset Management,Yes,No,Sell
+359,2016-12-01,AM,UK,6m,UK,Pension Fund,No,No,Buy
+360,2016-11-29,PM,DE,5y,FR,Central Bank,No,No,Sell
+361,2016-11-29,PM,JP,1y,JP,Pension Fund,No,No,Sell
+362,2016-12-02,AM,JP,6m,DE,Asset Management,Yes,No,Sell
+363,2016-11-28,PM,FR,10y,UK,Central Bank,No,No,Sell
+364,2016-11-28,AM,JP,1m,DE,Asset Management,No,No,Buy
+365,2016-11-28,PM,JP,6m,JP,Asset Management,No,No,Sell
+366,2016-11-30,AM,US,1y,DE,Asset Management,No,Yes,Sell
+367,2016-12-01,AM,DE,3m,FR,Pension Fund,No,No,Buy
+368,2016-12-02,PM,DE,5y,JP,Asset Management,Yes,No,Buy
+369,2016-11-30,PM,US,30y,DE,Central Bank,No,Yes,Buy
+370,2016-12-02,PM,FR,6m,DE,Central Bank,Yes,No,Sell
+371,2016-11-29,PM,DE,5y,FR,Pension Fund,No,No,Sell
+372,2016-12-01,AM,UK,1y,US,Central Bank,No,No,Sell
+373,2016-12-01,PM,DE,6m,US,Asset Management,No,No,Sell
+374,2016-12-02,AM,UK,1y,UK,Asset Management,Yes,No,Buy
+375,2016-11-30,AM,JP,30y,JP,Asset Management,No,Yes,Buy
+376,2016-11-30,AM,FR,10y,FR,Pension Fund,No,Yes,Buy
+377,2016-11-30,PM,US,30y,UK,Central Bank,No,Yes,Sell
+378,2016-12-02,AM,FR,3m,DE,Asset Management,Yes,No,Buy
+379,2016-12-01,AM,UK,1y,FR,Pension Fund,No,No,Buy
+380,2016-12-01,PM,FR,10y,DE,Central Bank,No,No,Buy
+381,2016-12-01,AM,UK,1m,DE,Asset Management,No,No,Buy
+382,2016-12-01,AM,JP,1m,DE,Central Bank,No,No,Sell
+383,2016-11-30,AM,JP,1y,JP,Central Bank,No,Yes,Sell
+384,2016-12-02,AM,FR,6m,DE,Asset Management,Yes,No,Buy
+385,2016-11-28,AM,DE,1y,DE,Asset Management,No,No,Sell
+386,2016-11-29,AM,FR,5y,UK,Pension Fund,No,No,Buy
+387,2016-12-02,PM,JP,10y,DE,Asset Management,Yes,No,Buy
+388,2016-11-30,AM,JP,6m,JP,Asset Management,No,Yes,Sell
+389,2016-12-02,AM,DE,1y,UK,Central Bank,Yes,No,Sell
+390,2016-11-29,AM,FR,5y,UK,Pension Fund,No,No,Buy
+391,2016-12-01,PM,FR,5y,FR,Central Bank,No,No,Sell
+392,2016-12-01,PM,FR,5y,US,Central Bank,No,No,Sell
+393,2016-12-01,AM,JP,30y,DE,Asset Management,No,No,Buy
+394,2016-11-29,AM,JP,6m,DE,Asset Management,No,No,Sell
+395,2016-11-28,AM,FR,5y,UK,Asset Management,No,No,Sell
+396,2016-12-01,PM,DE,1y,UK,Pension Fund,No,No,Sell
+397,2016-12-02,PM,US,3m,DE,Asset Management,Yes,No,Buy
+398,2016-12-01,PM,JP,10y,US,Central Bank,No,No,Sell
+399,2016-12-02,AM,JP,10y,UK,Asset Management,Yes,No,Sell
+400,2016-12-02,PM,JP,6m,US,Asset Management,Yes,No,Sell
+401,2016-11-29,PM,UK,5y,JP,Asset Management,No,No,Buy
+402,2016-11-30,AM,UK,6m,UK,Pension Fund,No,Yes,Buy
+403,2016-11-28,AM,US,10y,JP,Pension Fund,No,No,Buy
+404,2016-12-01,AM,US,10y,DE,Asset Management,No,No,Buy
+405,2016-11-30,AM,FR,6m,FR,Pension Fund,No,Yes,Sell
+406,2016-11-30,PM,JP,5y,DE,Asset Management,No,Yes,Sell
+407,2016-11-30,PM,FR,6m,US,Central Bank,No,Yes,Sell
+408,2016-11-28,AM,FR,3m,US,Central Bank,No,No,Sell
+409,2016-12-02,AM,FR,6m,FR,Pension Fund,Yes,No,Buy
+410,2016-11-30,AM,UK,1y,UK,Pension Fund,No,Yes,Buy
+411,2016-11-29,PM,UK,5y,DE,Pension Fund,No,No,Buy
+412,2016-11-30,PM,FR,10y,FR,Pension Fund,No,Yes,Buy
+413,2016-11-28,PM,DE,6m,DE,Asset Management,No,No,Sell
+414,2016-11-29,AM,JP,1m,DE,Broker,No,No,Sell
+415,2016-12-01,PM,DE,5y,UK,Pension Fund,No,No,Sell
+416,2016-11-28,AM,FR,6m,UK,Central Bank,No,No,Sell
+417,2016-11-30,PM,FR,3m,JP,Asset Management,No,Yes,Buy
+418,2016-11-30,AM,US,3m,JP,Asset Management,No,Yes,Buy
+419,2016-12-02,AM,FR,6m,UK,Asset Management,Yes,No,Sell
+420,2016-12-01,PM,DE,1y,JP,Broker,No,No,Sell
+421,2016-12-01,AM,US,3m,DE,Asset Management,No,No,Buy
+422,2016-12-02,PM,US,30y,DE,Asset Management,Yes,No,Buy
+423,2016-12-02,AM,FR,10y,US,Central Bank,Yes,No,Buy
+424,2016-12-02,PM,FR,10y,UK,Central Bank,Yes,No,Sell
+425,2016-11-28,AM,FR,10y,JP,Asset Management,No,No,Buy
+426,2016-11-29,PM,JP,30y,US,Central Bank,No,No,Sell
+427,2016-11-28,PM,JP,30y,JP,Asset Management,No,No,Buy
+428,2016-11-28,PM,FR,3m,FR,Central Bank,No,No,Sell
+429,2016-12-01,AM,US,10y,DE,Broker,No,No,Buy
+430,2016-11-29,PM,US,6m,JP,Asset Management,No,No,Buy
+431,2016-11-30,AM,US,6m,JP,Pension Fund,No,Yes,Buy
+432,2016-12-01,AM,DE,3m,FR,Pension Fund,No,No,Buy
+433,2016-11-28,PM,JP,5y,UK,Central Bank,No,No,Sell
+434,2016-12-02,PM,FR,5y,DE,Asset Management,Yes,No,Buy
+435,2016-12-01,AM,JP,30y,JP,Asset Management,No,No,Buy
+436,2016-11-29,AM,JP,1m,DE,Broker,No,No,Sell
+437,2016-12-02,PM,FR,5y,US,Asset Management,Yes,No,Sell
+438,2016-11-30,PM,UK,1m,UK,Pension Fund,No,Yes,Buy
+439,2016-11-28,AM,US,10y,DE,Central Bank,No,No,Buy
+440,2016-11-30,PM,US,1y,DE,Asset Management,No,Yes,Sell
+441,2016-12-01,PM,FR,5y,JP,Asset Management,No,No,Buy
+442,2016-11-29,PM,UK,1y,JP,Broker,No,No,Buy
+443,2016-12-01,AM,DE,6m,JP,Broker,No,No,Sell
+444,2016-11-29,PM,DE,6m,UK,Pension Fund,No,No,Sell
+445,2016-12-02,AM,JP,30y,US,Central Bank,Yes,No,Buy
+446,2016-12-01,PM,FR,10y,DE,Pension Fund,No,No,Buy
+447,2016-12-02,PM,FR,10y,JP,Asset Management,Yes,No,Buy
+448,2016-11-30,AM,DE,6m,DE,Asset Management,No,Yes,Sell
+449,2016-12-01,AM,JP,30y,JP,Asset Management,No,No,Buy
+450,2016-11-28,AM,US,10y,US,Asset Management,No,No,Buy
+451,2016-12-01,PM,UK,6m,FR,Central Bank,No,No,Buy
+452,2016-12-02,AM,DE,1y,JP,Asset Management,Yes,No,Sell
+453,2016-12-02,PM,US,1y,UK,Central Bank,Yes,No,Sell
+454,2016-12-02,PM,FR,3m,UK,Central Bank,Yes,No,Sell
+455,2016-11-28,AM,US,10y,DE,Asset Management,No,No,Buy
+456,2016-12-02,PM,US,3m,UK,Pension Fund,Yes,No,Buy
+457,2016-12-02,AM,FR,3m,US,Central Bank,Yes,No,Sell
+458,2016-11-28,AM,DE,1y,DE,Pension Fund,No,No,Sell
+459,2016-11-30,PM,DE,5y,JP,Pension Fund,No,Yes,Buy
+460,2016-11-30,AM,US,3m,JP,Asset Management,No,Yes,Buy
+461,2016-11-29,PM,DE,6m,UK,Pension Fund,No,No,Sell
+462,2016-11-29,PM,UK,1y,UK,Asset Management,No,No,Sell
+463,2016-12-01,PM,DE,5y,FR,Central Bank,No,No,Sell
+464,2016-11-29,AM,DE,5y,US,Central Bank,No,No,Sell
+465,2016-11-29,PM,FR,6m,UK,Central Bank,No,No,Sell
+466,2016-12-02,PM,DE,5y,JP,Asset Management,Yes,No,Buy
+467,2016-12-02,PM,UK,1m,DE,Broker,Yes,No,Buy
+468,2016-11-29,PM,JP,1y,US,Central Bank,No,No,Sell
+469,2016-12-02,AM,US,30y,UK,Pension Fund,Yes,No,Buy
+470,2016-12-02,PM,DE,1y,UK,Asset Management,Yes,No,Sell
+471,2016-11-28,AM,JP,30y,DE,Asset Management,No,No,Buy
+472,2016-11-28,AM,FR,3m,UK,Asset Management,No,No,Sell
+473,2016-12-01,AM,JP,1m,UK,Pension Fund,No,No,Buy
+474,2016-11-28,PM,JP,1m,FR,Central Bank,No,No,Sell
+475,2016-11-29,AM,JP,5y,DE,Asset Management,No,No,Sell
+476,2016-12-02,PM,JP,1y,DE,Asset Management,Yes,No,Sell
+477,2016-12-01,PM,JP,5y,DE,Broker,No,No,Sell
+478,2016-12-02,PM,FR,10y,JP,Central Bank,Yes,No,Buy
+479,2016-12-01,PM,US,1y,UK,Asset Management,No,No,Sell
+480,2016-11-28,AM,DE,6m,US,Central Bank,No,No,Sell
+481,2016-11-29,PM,JP,5y,DE,Asset Management,No,No,Sell
+482,2016-11-28,AM,DE,3m,DE,Central Bank,No,No,Sell
+483,2016-12-01,PM,JP,30y,US,Central Bank,No,No,Sell
+484,2016-11-29,AM,UK,1y,JP,Central Bank,No,No,Buy
+485,2016-11-30,AM,DE,5y,US,Central Bank,No,Yes,Sell
+486,2016-12-01,AM,DE,5y,DE,Pension Fund,No,No,Buy
+487,2016-11-28,PM,US,1y,JP,Asset Management,No,No,Buy
+488,2016-12-02,AM,DE,5y,JP,Central Bank,Yes,No,Buy
+489,2016-11-28,AM,DE,6m,UK,Asset Management,No,No,Sell
+490,2016-11-28,AM,JP,10y,JP,Asset Management,No,No,Buy
+491,2016-12-01,AM,DE,5y,DE,Asset Management,No,No,Sell
+492,2016-11-28,PM,US,3m,UK,Asset Management,No,No,Sell
+493,2016-12-02,AM,DE,5y,DE,Asset Management,Yes,No,Buy
+494,2016-11-28,AM,JP,5y,DE,Broker,No,No,Sell
+495,2016-12-01,PM,DE,3m,UK,Asset Management,No,No,Sell
+496,2016-12-01,AM,DE,3m,UK,Asset Management,No,No,Sell
+497,2016-11-28,PM,US,6m,DE,Broker,No,No,Sell
+498,2016-12-02,PM,UK,5y,DE,Pension Fund,Yes,No,Buy
+499,2016-11-29,PM,FR,5y,JP,Pension Fund,No,No,Buy
+500,2016-11-30,AM,UK,1m,DE,Pension Fund,No,Yes,Buy
+501,2016-11-28,AM,US,3m,JP,Asset Management,No,No,Buy
+502,2016-12-02,PM,JP,6m,JP,Asset Management,Yes,No,Sell
+503,2016-11-28,PM,FR,3m,FR,Pension Fund,No,No,Buy
+504,2016-12-02,AM,JP,10y,JP,Asset Management,Yes,No,Buy
+505,2016-11-29,AM,US,10y,UK,Asset Management,No,No,Buy
+506,2016-12-01,AM,FR,10y,US,Central Bank,No,No,Sell
+507,2016-11-29,AM,JP,6m,US,Asset Management,No,No,Sell
+508,2016-11-29,PM,JP,1m,UK,Central Bank,No,No,Sell
+509,2016-11-30,AM,US,1y,DE,Asset Management,No,Yes,Sell
+510,2016-12-01,PM,US,1y,US,Asset Management,No,No,Sell
+511,2016-11-28,PM,US,30y,US,Asset Management,No,No,Buy
+512,2016-12-02,PM,DE,5y,US,Central Bank,Yes,No,Sell
+513,2016-11-29,AM,JP,1m,JP,Broker,No,No,Buy
+514,2016-11-30,AM,FR,3m,UK,Central Bank,No,Yes,Sell
+515,2016-11-29,AM,FR,5y,UK,Pension Fund,No,No,Buy
+516,2016-12-01,AM,US,30y,UK,Central Bank,No,No,Buy
+517,2016-11-28,AM,US,1y,DE,Asset Management,No,No,Buy
+518,2016-11-29,AM,JP,10y,JP,Asset Management,No,No,Buy
+519,2016-11-30,AM,UK,1y,FR,Pension Fund,No,Yes,Buy
+520,2016-11-29,AM,UK,5y,DE,Asset Management,No,No,Buy
+521,2016-11-29,PM,US,6m,FR,Central Bank,No,No,Sell
+522,2016-11-29,AM,DE,1y,JP,Broker,No,No,Sell
+523,2016-11-29,PM,DE,6m,DE,Asset Management,No,No,Sell
+524,2016-12-02,AM,DE,5y,US,Central Bank,Yes,No,Sell
+525,2016-11-30,AM,DE,5y,DE,Asset Management,No,Yes,Sell
+526,2016-11-28,AM,FR,5y,DE,Central Bank,No,No,Sell
+527,2016-11-28,PM,JP,30y,JP,Central Bank,No,No,Buy
+528,2016-11-28,AM,DE,6m,DE,Asset Management,No,No,Sell
+529,2016-11-28,AM,JP,5y,UK,Pension Fund,No,No,Sell
+530,2016-12-01,AM,DE,6m,US,Asset Management,No,No,Sell
+531,2016-11-29,PM,UK,1y,US,Central Bank,No,No,Sell
+532,2016-12-02,PM,DE,1y,UK,Pension Fund,Yes,No,Sell
+533,2016-11-29,PM,DE,1y,US,Asset Management,No,No,Sell
+534,2016-11-29,AM,UK,6m,UK,Pension Fund,No,No,Buy
+535,2016-12-01,PM,US,1y,US,Central Bank,No,No,Sell
+536,2016-11-29,AM,JP,5y,DE,Pension Fund,No,No,Sell
+537,2016-12-01,AM,US,3m,JP,Pension Fund,No,No,Buy
+538,2016-11-29,AM,FR,6m,UK,Asset Management,No,No,Sell
+539,2016-11-28,AM,US,6m,FR,Central Bank,No,No,Sell
+540,2016-11-28,PM,UK,1y,JP,Pension Fund,No,No,Buy
+541,2016-11-30,AM,DE,3m,UK,Asset Management,No,Yes,Sell
+542,2016-11-28,PM,FR,5y,JP,Pension Fund,No,No,Buy
+543,2016-11-28,AM,UK,6m,US,Asset Management,No,No,Buy
+544,2016-11-28,PM,UK,1y,FR,Central Bank,No,No,Sell
+545,2016-11-29,PM,UK,5y,JP,Broker,No,No,Buy
+546,2016-12-02,PM,FR,5y,DE,Asset Management,Yes,No,Buy
+547,2016-12-01,PM,FR,5y,DE,Asset Management,No,No,Buy
+548,2016-11-28,PM,JP,1y,UK,Asset Management,No,No,Sell
+549,2016-11-29,AM,US,30y,DE,Pension Fund,No,No,Buy
+550,2016-11-28,AM,FR,10y,DE,Asset Management,No,No,Buy
+551,2016-11-30,PM,DE,5y,US,Asset Management,No,Yes,Sell
+552,2016-11-29,PM,US,3m,DE,Pension Fund,No,No,Buy
+553,2016-11-30,PM,US,30y,UK,Central Bank,No,Yes,Sell
+554,2016-12-01,AM,JP,30y,UK,Central Bank,No,No,Sell
+555,2016-12-01,AM,FR,5y,FR,Central Bank,No,No,Sell
+556,2016-12-01,PM,UK,1m,US,Central Bank,No,No,Buy
+557,2016-11-29,AM,FR,6m,JP,Broker,No,No,Buy
+558,2016-11-28,AM,US,1y,JP,Asset Management,No,No,Buy
+559,2016-12-01,AM,DE,3m,FR,Central Bank,No,No,Sell
+560,2016-11-28,PM,FR,6m,UK,Central Bank,No,No,Sell
+561,2016-12-01,AM,JP,6m,DE,Central Bank,No,No,Sell
+562,2016-11-28,AM,FR,10y,US,Central Bank,No,No,Sell
+563,2016-11-30,AM,UK,1y,UK,Pension Fund,No,Yes,Buy
+564,2016-11-29,AM,JP,1y,DE,Asset Management,No,No,Sell
+565,2016-12-01,PM,DE,5y,DE,Broker,No,No,Sell
+566,2016-11-30,AM,JP,5y,FR,Central Bank,No,Yes,Sell
+567,2016-12-02,AM,FR,5y,UK,Pension Fund,Yes,No,Buy
+568,2016-12-01,PM,UK,1y,DE,Pension Fund,No,No,Buy
+569,2016-12-02,AM,JP,10y,US,Central Bank,Yes,No,Sell
+570,2016-11-30,AM,UK,6m,JP,Pension Fund,No,Yes,Buy
+571,2016-12-02,PM,DE,5y,UK,Asset Management,Yes,No,Sell
+572,2016-12-01,PM,JP,30y,DE,Asset Management,No,No,Buy
+573,2016-12-01,AM,FR,10y,US,Asset Management,No,No,Buy
+574,2016-12-01,AM,UK,1m,JP,Asset Management,No,No,Buy
+575,2016-11-30,PM,US,3m,JP,Broker,No,Yes,Buy
+576,2016-11-30,PM,US,6m,DE,Pension Fund,No,Yes,Buy
+577,2016-12-01,PM,UK,6m,FR,Central Bank,No,No,Buy
+578,2016-12-02,AM,FR,6m,DE,Asset Management,Yes,No,Buy
+579,2016-11-30,PM,UK,1y,JP,Asset Management,No,Yes,Buy
+580,2016-11-28,PM,JP,30y,US,Central Bank,No,No,Sell
+581,2016-12-02,PM,DE,5y,JP,Broker,Yes,No,Buy
+582,2016-11-30,PM,JP,30y,US,Asset Management,No,Yes,Buy
+583,2016-11-29,PM,UK,1m,US,Central Bank,No,No,Buy
+584,2016-11-28,PM,FR,6m,JP,Broker,No,No,Sell
+585,2016-11-29,AM,US,30y,JP,Asset Management,No,No,Buy
+586,2016-12-02,PM,JP,1y,JP,Asset Management,Yes,No,Sell
+587,2016-11-28,AM,DE,1y,FR,Pension Fund,No,No,Sell
+588,2016-11-29,AM,UK,6m,FR,Central Bank,No,No,Buy
+589,2016-11-29,PM,UK,6m,UK,Pension Fund,No,No,Buy
+590,2016-12-01,AM,JP,5y,DE,Broker,No,No,Sell
+591,2016-12-01,PM,JP,30y,UK,Pension Fund,No,No,Buy
+592,2016-12-02,PM,JP,5y,DE,Broker,Yes,No,Sell
+593,2016-11-28,AM,JP,30y,DE,Central Bank,No,No,Buy
+594,2016-11-29,PM,JP,5y,DE,Asset Management,No,No,Sell
+595,2016-12-01,AM,US,3m,DE,Central Bank,No,No,Buy
+596,2016-12-01,AM,US,1y,JP,Asset Management,No,No,Buy
+597,2016-11-29,PM,JP,6m,FR,Pension Fund,No,No,Sell
+598,2016-11-30,AM,FR,5y,JP,Asset Management,No,Yes,Buy
+599,2016-11-28,AM,UK,1y,JP,Asset Management,No,No,Buy
+600,2016-11-30,PM,US,3m,JP,Asset Management,No,Yes,Buy
+601,2016-11-28,AM,JP,5y,UK,Central Bank,No,No,Sell
+602,2016-12-01,PM,JP,1y,DE,Broker,No,No,Sell
+603,2016-12-02,PM,FR,6m,FR,Pension Fund,Yes,No,Buy
+604,2016-11-28,PM,FR,3m,JP,Broker,No,No,Buy
+605,2016-11-28,PM,DE,5y,JP,Broker,No,No,Buy
+606,2016-11-29,PM,FR,10y,US,Asset Management,No,No,Buy
+607,2016-12-02,PM,JP,5y,UK,Pension Fund,Yes,No,Sell
+608,2016-11-30,PM,JP,5y,US,Central Bank,No,Yes,Sell
+609,2016-12-01,PM,UK,6m,FR,Central Bank,No,No,Buy
+610,2016-12-01,AM,UK,6m,FR,Pension Fund,No,No,Buy
+611,2016-11-28,PM,UK,1m,UK,Pension Fund,No,No,Buy
+612,2016-12-02,PM,FR,5y,DE,Broker,Yes,No,Sell
+613,2016-12-02,AM,UK,1y,FR,Pension Fund,Yes,No,Buy
+614,2016-12-01,AM,DE,3m,DE,Asset Management,No,No,Sell
+615,2016-11-29,PM,JP,1m,UK,Asset Management,No,No,Sell
+616,2016-11-28,PM,UK,1y,DE,Asset Management,No,No,Buy
+617,2016-11-28,PM,DE,1y,JP,Central Bank,No,No,Sell
+618,2016-11-30,AM,US,10y,JP,Asset Management,No,Yes,Buy
+619,2016-12-01,AM,JP,5y,FR,Central Bank,No,No,Sell
+620,2016-11-29,AM,FR,3m,JP,Asset Management,No,No,Buy
+621,2016-11-28,AM,UK,1m,US,Central Bank,No,No,Buy
+622,2016-11-28,PM,JP,6m,US,Central Bank,No,No,Sell
+623,2016-11-29,AM,FR,5y,FR,Central Bank,No,No,Sell
+624,2016-11-28,PM,UK,1y,FR,Pension Fund,No,No,Buy
+625,2016-12-02,PM,DE,1y,DE,Central Bank,Yes,No,Sell
+626,2016-12-02,PM,US,30y,JP,Broker,Yes,No,Buy
+627,2016-12-02,PM,UK,1y,JP,Asset Management,Yes,No,Buy
+628,2016-11-29,PM,UK,1y,FR,Central Bank,No,No,Sell
+629,2016-11-30,AM,UK,1y,JP,Asset Management,No,Yes,Buy
+630,2016-11-28,AM,JP,6m,UK,Asset Management,No,No,Sell
+631,2016-12-02,AM,UK,1m,JP,Asset Management,Yes,No,Buy
+632,2016-12-01,AM,FR,6m,DE,Asset Management,No,No,Sell
+633,2016-11-29,AM,FR,5y,JP,Asset Management,No,No,Buy
+634,2016-12-01,PM,FR,3m,UK,Pension Fund,No,No,Buy
+635,2016-12-01,AM,UK,1y,DE,Asset Management,No,No,Buy
+636,2016-11-28,PM,FR,3m,JP,Broker,No,No,Buy
+637,2016-11-28,PM,UK,1y,DE,Pension Fund,No,No,Buy
+638,2016-12-02,AM,UK,5y,JP,Asset Management,Yes,No,Buy
+639,2016-12-01,PM,DE,1y,JP,Asset Management,No,No,Sell
+640,2016-11-28,PM,UK,1y,DE,Broker,No,No,Sell
+641,2016-11-28,AM,DE,5y,JP,Asset Management,No,No,Buy
+642,2016-11-29,PM,FR,5y,DE,Central Bank,No,No,Sell
+643,2016-11-28,PM,UK,1y,JP,Asset Management,No,No,Buy
+644,2016-11-29,PM,FR,3m,DE,Pension Fund,No,No,Buy
+645,2016-12-02,PM,DE,3m,JP,Pension Fund,Yes,No,Buy
+646,2016-11-28,AM,DE,5y,UK,Asset Management,No,No,Sell
+647,2016-11-29,AM,JP,1y,JP,Asset Management,No,No,Sell
+648,2016-12-01,PM,JP,5y,JP,Asset Management,No,No,Sell
+649,2016-11-29,PM,FR,6m,JP,Asset Management,No,No,Buy
+650,2016-12-02,AM,DE,1y,JP,Asset Management,Yes,No,Sell
+651,2016-12-02,AM,UK,1y,JP,Asset Management,Yes,No,Buy
+652,2016-11-29,PM,UK,1y,DE,Central Bank,No,No,Buy
+653,2016-11-30,PM,UK,1y,FR,Pension Fund,No,Yes,Buy
+654,2016-12-01,AM,DE,1y,US,Central Bank,No,No,Sell
+655,2016-11-29,PM,UK,1y,DE,Central Bank,No,No,Buy
+656,2016-12-01,AM,DE,1y,FR,Pension Fund,No,No,Sell
+657,2016-11-30,AM,US,30y,US,Asset Management,No,Yes,Buy
+658,2016-12-02,PM,US,3m,JP,Asset Management,Yes,No,Buy
+659,2016-11-29,AM,FR,3m,JP,Asset Management,No,No,Buy
+660,2016-11-29,PM,JP,10y,DE,Broker,No,No,Sell
+661,2016-11-28,AM,US,1y,DE,Central Bank,No,No,Sell
+662,2016-12-01,PM,FR,10y,JP,Asset Management,No,No,Buy
+663,2016-12-02,PM,JP,6m,UK,Central Bank,Yes,No,Sell
+664,2016-12-01,AM,FR,6m,JP,Broker,No,No,Buy
+665,2016-11-30,AM,UK,1y,JP,Central Bank,No,Yes,Buy
+666,2016-12-02,PM,DE,1y,US,Central Bank,Yes,No,Sell
+667,2016-11-29,AM,JP,6m,US,Central Bank,No,No,Sell
+668,2016-12-02,AM,DE,5y,JP,Asset Management,Yes,No,Buy
+669,2016-12-01,PM,US,1y,JP,Broker,No,No,Buy
+670,2016-11-28,AM,FR,5y,FR,Central Bank,No,No,Sell
+671,2016-11-29,PM,JP,1m,DE,Asset Management,No,No,Buy
+672,2016-11-29,PM,US,10y,JP,Asset Management,No,No,Buy
+673,2016-12-01,AM,UK,6m,DE,Central Bank,No,No,Buy
+674,2016-12-01,PM,UK,1y,US,Central Bank,No,No,Sell
+675,2016-11-29,PM,FR,10y,UK,Pension Fund,No,No,Buy
+676,2016-12-01,AM,US,30y,DE,Pension Fund,No,No,Buy
+677,2016-12-02,PM,FR,6m,US,Asset Management,Yes,No,Sell
+678,2016-12-01,AM,UK,1y,FR,Central Bank,No,No,Buy
+679,2016-11-28,AM,FR,6m,JP,Broker,No,No,Buy
+680,2016-12-02,AM,UK,1y,UK,Pension Fund,Yes,No,Buy
+681,2016-11-28,AM,FR,3m,UK,Pension Fund,No,No,Buy
+682,2016-11-30,AM,FR,10y,JP,Asset Management,No,Yes,Buy
+683,2016-12-01,AM,JP,30y,DE,Broker,No,No,Buy
+684,2016-11-29,AM,JP,30y,UK,Central Bank,No,No,Sell
+685,2016-12-01,PM,DE,5y,DE,Broker,No,No,Sell
+686,2016-12-01,AM,DE,1y,JP,Central Bank,No,No,Sell
+687,2016-11-30,AM,JP,10y,US,Central Bank,No,Yes,Sell
+688,2016-11-29,PM,DE,1y,JP,Broker,No,No,Sell
+689,2016-12-02,AM,JP,10y,FR,Central Bank,Yes,No,Sell
+690,2016-11-30,AM,US,1y,JP,Broker,No,Yes,Buy
+691,2016-11-30,PM,FR,6m,DE,Asset Management,No,Yes,Sell
+692,2016-11-28,AM,JP,1y,DE,Central Bank,No,No,Sell
+693,2016-12-02,PM,FR,6m,JP,Asset Management,Yes,No,Buy
+694,2016-12-02,PM,UK,6m,JP,Asset Management,Yes,No,Buy
+695,2016-11-29,PM,DE,1y,UK,Pension Fund,No,No,Sell
+696,2016-11-30,PM,US,1y,JP,Broker,No,Yes,Sell
+697,2016-12-01,PM,FR,6m,JP,Asset Management,No,No,Buy
+698,2016-11-28,AM,US,6m,US,Central Bank,No,No,Sell
+699,2016-12-01,PM,DE,3m,FR,Central Bank,No,No,Sell
+700,2016-11-29,PM,JP,30y,US,Central Bank,No,No,Sell
+701,2016-11-28,AM,DE,5y,UK,Pension Fund,No,No,Buy
+702,2016-11-28,PM,UK,1m,DE,Asset Management,No,No,Buy
+703,2016-11-30,PM,UK,1y,JP,Broker,No,Yes,Buy
+704,2016-11-29,PM,DE,3m,UK,Asset Management,No,No,Sell
+705,2016-12-02,AM,DE,5y,DE,Central Bank,Yes,No,Sell
+706,2016-12-02,AM,JP,5y,FR,Central Bank,Yes,No,Sell
+707,2016-11-28,AM,DE,1y,DE,Pension Fund,No,No,Sell
+708,2016-12-01,AM,JP,1m,JP,Asset Management,No,No,Buy
+709,2016-12-02,AM,JP,30y,UK,Pension Fund,Yes,No,Buy
+710,2016-11-28,PM,US,30y,JP,Broker,No,No,Buy
+711,2016-11-30,AM,UK,1y,US,Central Bank,No,Yes,Sell
+712,2016-11-29,PM,US,30y,FR,Pension Fund,No,No,Buy
+713,2016-11-30,AM,UK,1y,UK,Pension Fund,No,Yes,Buy
+714,2016-12-01,AM,DE,6m,DE,Broker,No,No,Sell
+715,2016-11-28,PM,DE,5y,DE,Pension Fund,No,No,Buy
+716,2016-11-28,AM,DE,5y,JP,Central Bank,No,No,Buy
+717,2016-11-28,PM,DE,6m,DE,Asset Management,No,No,Sell
+718,2016-11-29,PM,DE,6m,DE,Asset Management,No,No,Sell
+719,2016-11-30,PM,FR,10y,DE,Broker,No,Yes,Sell
+720,2016-12-01,AM,FR,10y,JP,Central Bank,No,No,Buy
+721,2016-11-29,PM,JP,1m,JP,Asset Management,No,No,Buy
+722,2016-12-01,PM,FR,10y,UK,Asset Management,No,No,Sell
+723,2016-12-01,PM,US,10y,JP,Central Bank,No,No,Buy
+724,2016-12-01,AM,US,3m,FR,Central Bank,No,No,Buy
+725,2016-11-30,PM,JP,1m,DE,Asset Management,No,Yes,Sell
+726,2016-12-02,AM,JP,1m,UK,Asset Management,Yes,No,Sell
+727,2016-12-02,AM,JP,30y,DE,Broker,Yes,No,Buy
+728,2016-11-29,AM,UK,5y,JP,Asset Management,No,No,Buy
+729,2016-12-01,AM,UK,1y,JP,Pension Fund,No,No,Buy
+730,2016-12-01,PM,UK,1y,DE,Pension Fund,No,No,Buy
+731,2016-12-02,PM,FR,10y,US,Asset Management,Yes,No,Buy
+732,2016-12-02,AM,DE,5y,DE,Broker,Yes,No,Sell
+733,2016-11-30,PM,JP,6m,JP,Asset Management,No,Yes,Sell
+734,2016-12-01,AM,US,3m,US,Central Bank,No,No,Sell
+735,2016-11-30,PM,JP,6m,DE,Pension Fund,No,Yes,Sell
+736,2016-11-28,PM,FR,5y,UK,Asset Management,No,No,Sell
+737,2016-11-28,PM,JP,6m,UK,Asset Management,No,No,Sell
+738,2016-11-28,PM,DE,5y,UK,Central Bank,No,No,Sell
+739,2016-12-01,PM,JP,1y,DE,Pension Fund,No,No,Sell
+740,2016-12-01,AM,FR,10y,US,Asset Management,No,No,Buy
+741,2016-11-29,AM,UK,1m,JP,Central Bank,No,No,Buy
+742,2016-11-29,AM,JP,5y,FR,Central Bank,No,No,Sell
+743,2016-11-30,PM,UK,1y,DE,Broker,No,Yes,Sell
+744,2016-11-29,PM,DE,1y,UK,Central Bank,No,No,Sell
+745,2016-11-28,PM,US,3m,FR,Pension Fund,No,No,Buy
+746,2016-12-02,AM,JP,1m,US,Central Bank,Yes,No,Sell
+747,2016-12-02,AM,JP,5y,DE,Central Bank,Yes,No,Sell
+748,2016-11-29,AM,FR,6m,UK,Central Bank,No,No,Sell
+749,2016-12-01,AM,DE,3m,US,Central Bank,No,No,Sell
+750,2016-11-28,PM,UK,1m,JP,Pension Fund,No,No,Buy
+751,2016-12-01,AM,US,3m,US,Central Bank,No,No,Sell
+752,2016-11-30,AM,DE,5y,UK,Central Bank,No,Yes,Sell
+753,2016-11-29,AM,US,1y,US,Central Bank,No,No,Sell
+754,2016-12-02,AM,FR,5y,DE,Asset Management,Yes,No,Buy
+755,2016-11-28,PM,JP,6m,US,Central Bank,No,No,Sell
+756,2016-11-29,PM,JP,1m,US,Central Bank,No,No,Sell
+757,2016-11-28,AM,DE,5y,JP,Pension Fund,No,No,Buy
+758,2016-11-30,AM,UK,5y,UK,Asset Management,No,Yes,Buy
+759,2016-12-02,AM,UK,6m,FR,Pension Fund,Yes,No,Buy
+760,2016-12-02,PM,US,10y,JP,Central Bank,Yes,No,Buy
+761,2016-12-01,PM,FR,10y,FR,Pension Fund,No,No,Buy
+762,2016-12-01,PM,DE,5y,DE,Asset Management,No,No,Sell
+763,2016-11-29,PM,DE,5y,DE,Central Bank,No,No,Sell
+764,2016-11-30,AM,FR,6m,FR,Pension Fund,No,Yes,Sell
+765,2016-11-30,AM,JP,1m,JP,Asset Management,No,Yes,Buy
+766,2016-12-01,AM,JP,30y,JP,Broker,No,No,Buy
+767,2016-12-01,AM,JP,6m,DE,Asset Management,No,No,Sell
+768,2016-11-28,PM,JP,5y,US,Asset Management,No,No,Sell
+769,2016-11-28,PM,FR,10y,DE,Asset Management,No,No,Buy
+770,2016-11-28,PM,JP,1y,JP,Pension Fund,No,No,Sell
+771,2016-11-30,PM,DE,6m,JP,Asset Management,No,Yes,Sell
+772,2016-11-30,PM,FR,6m,DE,Asset Management,No,Yes,Sell
+773,2016-11-28,PM,DE,3m,DE,Broker,No,No,Sell
+774,2016-12-01,AM,DE,5y,JP,Asset Management,No,No,Buy
+775,2016-11-28,AM,FR,6m,US,Central Bank,No,No,Sell
+776,2016-11-28,AM,FR,6m,JP,Central Bank,No,No,Buy
+777,2016-11-28,PM,US,3m,DE,Central Bank,No,No,Buy
+778,2016-12-02,AM,DE,5y,DE,Central Bank,Yes,No,Sell
+779,2016-12-01,PM,US,3m,US,Central Bank,No,No,Sell
+780,2016-12-01,AM,DE,5y,US,Central Bank,No,No,Sell
+781,2016-12-02,PM,US,10y,JP,Broker,Yes,No,Buy
+782,2016-12-01,AM,DE,5y,US,Central Bank,No,No,Sell
+783,2016-11-28,AM,FR,10y,US,Central Bank,No,No,Sell
+784,2016-12-02,AM,UK,1y,DE,Pension Fund,Yes,No,Buy
+785,2016-11-29,PM,UK,6m,DE,Central Bank,No,No,Buy
+786,2016-12-01,AM,US,1y,JP,Central Bank,No,No,Buy
+787,2016-11-28,AM,DE,5y,US,Central Bank,No,No,Sell
+788,2016-11-28,PM,UK,1m,JP,Asset Management,No,No,Buy
+789,2016-12-02,AM,DE,5y,US,Central Bank,Yes,No,Sell
+790,2016-12-02,PM,FR,6m,JP,Asset Management,Yes,No,Buy
+791,2016-11-28,AM,JP,10y,JP,Asset Management,No,No,Buy
+792,2016-12-01,AM,UK,5y,UK,Pension Fund,No,No,Buy
+793,2016-12-01,PM,JP,6m,FR,Pension Fund,No,No,Sell
+794,2016-11-29,PM,JP,5y,UK,Pension Fund,No,No,Sell
+795,2016-12-02,AM,FR,6m,DE,Pension Fund,Yes,No,Buy
+796,2016-12-02,AM,JP,5y,JP,Central Bank,Yes,No,Buy
+797,2016-12-02,PM,US,1y,US,Central Bank,Yes,No,Sell
+798,2016-11-29,PM,US,1y,JP,Asset Management,No,No,Buy
+799,2016-12-02,PM,JP,5y,US,Asset Management,Yes,No,Sell
+800,2016-12-01,PM,JP,6m,FR,Central Bank,No,No,Sell
+801,2016-12-01,PM,DE,1y,UK,Pension Fund,No,No,Sell
+802,2016-12-02,PM,US,10y,DE,Asset Management,Yes,No,Buy
+803,2016-11-29,PM,US,1y,JP,Asset Management,No,No,Buy
+804,2016-12-01,AM,DE,3m,JP,Asset Management,No,No,Buy
+805,2016-11-30,PM,FR,6m,FR,Central Bank,No,Yes,Sell
+806,2016-11-30,AM,US,10y,DE,Central Bank,No,Yes,Buy
+807,2016-11-29,AM,DE,1y,JP,Central Bank,No,No,Sell
+808,2016-11-29,PM,DE,5y,FR,Central Bank,No,No,Sell
+809,2016-11-30,PM,UK,1y,DE,Asset Management,No,Yes,Buy
+810,2016-11-29,PM,US,10y,DE,Central Bank,No,No,Buy
+811,2016-11-30,AM,FR,3m,DE,Asset Management,No,Yes,Buy
+812,2016-11-29,PM,UK,1y,JP,Pension Fund,No,No,Buy
+813,2016-11-29,AM,FR,5y,FR,Central Bank,No,No,Sell
+814,2016-11-29,PM,FR,6m,US,Asset Management,No,No,Sell
+815,2016-11-30,AM,UK,6m,JP,Asset Management,No,Yes,Buy
+816,2016-11-30,AM,JP,1m,DE,Pension Fund,No,Yes,Buy
+817,2016-12-01,AM,UK,1y,JP,Asset Management,No,No,Buy
+818,2016-11-30,PM,DE,6m,UK,Asset Management,No,Yes,Sell
+819,2016-11-30,PM,FR,5y,DE,Asset Management,No,Yes,Sell
+820,2016-12-02,AM,US,10y,DE,Asset Management,Yes,No,Buy
+821,2016-11-28,AM,US,10y,JP,Asset Management,No,No,Buy
+822,2016-11-30,AM,DE,6m,JP,Asset Management,No,Yes,Sell
+823,2016-12-02,PM,DE,1y,DE,Asset Management,Yes,No,Sell
+824,2016-12-01,AM,JP,30y,JP,Asset Management,No,No,Buy
+825,2016-11-28,AM,DE,5y,UK,Central Bank,No,No,Sell
+826,2016-11-30,AM,UK,1m,JP,Asset Management,No,Yes,Buy
+827,2016-11-29,PM,US,1y,US,Central Bank,No,No,Sell
+828,2016-11-30,PM,FR,6m,JP,Central Bank,No,Yes,Sell
+829,2016-11-29,PM,JP,5y,JP,Central Bank,No,No,Sell
+830,2016-12-01,PM,UK,1y,DE,Pension Fund,No,No,Buy
+831,2016-12-02,AM,FR,6m,US,Central Bank,Yes,No,Sell
+832,2016-12-02,PM,DE,5y,DE,Asset Management,Yes,No,Sell
+833,2016-11-30,PM,JP,30y,US,Central Bank,No,Yes,Sell
+834,2016-11-28,PM,UK,1y,US,Central Bank,No,No,Sell
+835,2016-11-29,AM,US,30y,JP,Pension Fund,No,No,Buy
+836,2016-12-01,AM,US,1y,UK,Pension Fund,No,No,Buy
+837,2016-11-30,AM,UK,1y,JP,Asset Management,No,Yes,Buy
+838,2016-11-28,AM,FR,3m,JP,Asset Management,No,No,Buy
+839,2016-11-30,PM,FR,3m,JP,Central Bank,No,Yes,Buy
+840,2016-11-28,PM,JP,1m,FR,Central Bank,No,No,Sell
+841,2016-12-02,PM,FR,5y,JP,Central Bank,Yes,No,Buy
+842,2016-12-01,PM,FR,6m,US,Central Bank,No,No,Sell
+843,2016-11-30,AM,JP,30y,JP,Pension Fund,No,Yes,Buy
+844,2016-12-01,PM,DE,1y,JP,Asset Management,No,No,Sell
+845,2016-11-30,PM,UK,1m,DE,Pension Fund,No,Yes,Buy
+846,2016-11-28,PM,UK,5y,UK,Asset Management,No,No,Buy
+847,2016-11-28,PM,DE,1y,JP,Asset Management,No,No,Sell
+848,2016-11-29,AM,FR,10y,FR,Pension Fund,No,No,Buy
+849,2016-12-01,AM,DE,5y,DE,Broker,No,No,Sell
+850,2016-11-30,AM,DE,1y,JP,Asset Management,No,Yes,Sell
+851,2016-11-30,AM,JP,30y,JP,Central Bank,No,Yes,Buy
+852,2016-12-01,AM,DE,3m,DE,Pension Fund,No,No,Buy
+853,2016-12-02,PM,FR,6m,DE,Asset Management,Yes,No,Sell
+854,2016-12-01,PM,US,1y,UK,Central Bank,No,No,Sell
+855,2016-11-29,PM,US,10y,JP,Asset Management,No,No,Buy
+856,2016-12-01,AM,DE,5y,UK,Central Bank,No,No,Sell
+857,2016-11-29,AM,FR,10y,JP,Central Bank,No,No,Buy
+858,2016-12-01,PM,DE,1y,JP,Asset Management,No,No,Sell
+859,2016-12-01,AM,DE,5y,DE,Central Bank,No,No,Sell
+860,2016-12-01,PM,FR,10y,JP,Broker,No,No,Buy
+861,2016-12-02,PM,US,10y,JP,Central Bank,Yes,No,Buy
+862,2016-11-28,PM,US,3m,FR,Pension Fund,No,No,Buy
+863,2016-12-01,AM,US,3m,DE,Asset Management,No,No,Buy
+864,2016-12-02,AM,UK,6m,US,Central Bank,Yes,No,Buy
+865,2016-11-29,AM,JP,30y,US,Central Bank,No,No,Buy
+866,2016-12-01,AM,JP,30y,DE,Pension Fund,No,No,Buy
+867,2016-11-29,AM,FR,6m,JP,Asset Management,No,No,Buy
+868,2016-11-29,PM,UK,5y,JP,Pension Fund,No,No,Buy
+869,2016-11-28,PM,UK,5y,JP,Central Bank,No,No,Buy
+870,2016-12-02,PM,UK,1y,FR,Pension Fund,Yes,No,Buy
+871,2016-12-01,PM,US,6m,US,Central Bank,No,No,Sell
+872,2016-12-01,PM,DE,6m,JP,Asset Management,No,No,Sell
+873,2016-11-28,PM,DE,5y,US,Central Bank,No,No,Sell
+874,2016-12-02,AM,US,30y,UK,Asset Management,Yes,No,Buy
+875,2016-12-02,PM,FR,5y,JP,Asset Management,Yes,No,Buy
+876,2016-11-30,PM,DE,5y,JP,Asset Management,No,Yes,Buy
+877,2016-11-29,PM,FR,6m,UK,Central Bank,No,No,Sell
+878,2016-11-30,AM,UK,1y,JP,Broker,No,Yes,Buy
+879,2016-11-30,AM,DE,5y,DE,Asset Management,No,Yes,Sell
+880,2016-12-02,PM,FR,5y,DE,Central Bank,Yes,No,Sell
+881,2016-12-01,PM,DE,3m,US,Central Bank,No,No,Sell
+882,2016-11-28,AM,FR,10y,JP,Central Bank,No,No,Buy
+883,2016-12-02,AM,UK,1y,US,Central Bank,Yes,No,Buy
+884,2016-12-02,AM,JP,1m,JP,Broker,Yes,No,Buy
+885,2016-12-01,AM,JP,30y,JP,Central Bank,No,No,Buy
+886,2016-11-28,PM,US,10y,UK,Central Bank,No,No,Sell
+887,2016-11-29,PM,JP,30y,US,Central Bank,No,No,Sell
+888,2016-12-02,PM,FR,3m,UK,Asset Management,Yes,No,Sell
+889,2016-11-28,PM,DE,5y,US,Central Bank,No,No,Sell
+890,2016-11-29,AM,FR,6m,UK,Asset Management,No,No,Sell
+891,2016-12-01,AM,US,6m,UK,Pension Fund,No,No,Buy
+892,2016-12-02,AM,JP,1y,FR,Pension Fund,Yes,No,Sell
+893,2016-12-01,AM,UK,1y,UK,Central Bank,No,No,Sell
+894,2016-11-30,AM,JP,6m,FR,Pension Fund,No,Yes,Sell
+895,2016-12-01,AM,FR,10y,UK,Central Bank,No,No,Sell
+896,2016-12-02,PM,DE,5y,JP,Asset Management,Yes,No,Buy
+897,2016-11-29,AM,DE,6m,FR,Pension Fund,No,No,Sell
+898,2016-11-28,AM,FR,6m,UK,Central Bank,No,No,Sell
+899,2016-11-28,PM,DE,5y,FR,Pension Fund,No,No,Sell
+900,2016-11-30,PM,DE,6m,DE,Asset Management,No,Yes,Sell
+901,2016-12-01,AM,UK,5y,JP,Asset Management,No,No,Buy
+902,2016-12-01,AM,US,1y,JP,Asset Management,No,No,Buy
+903,2016-12-01,AM,DE,5y,JP,Asset Management,No,No,Buy
+904,2016-12-02,AM,FR,5y,JP,Asset Management,Yes,No,Buy
+905,2016-11-30,AM,DE,5y,FR,Central Bank,No,Yes,Sell
+906,2016-11-28,PM,US,6m,JP,Asset Management,No,No,Buy
+907,2016-12-01,AM,FR,3m,DE,Asset Management,No,No,Buy
+908,2016-11-30,AM,US,1y,DE,Asset Management,No,Yes,Sell
+909,2016-11-29,AM,DE,6m,JP,Asset Management,No,No,Sell
+910,2016-11-28,AM,DE,5y,UK,Asset Management,No,No,Sell
+911,2016-11-29,PM,JP,30y,UK,Pension Fund,No,No,Buy
+912,2016-11-28,AM,JP,6m,JP,Asset Management,No,No,Sell
+913,2016-12-02,PM,JP,10y,JP,Broker,Yes,No,Buy
+914,2016-12-02,PM,US,10y,JP,Asset Management,Yes,No,Buy
+915,2016-11-30,AM,UK,1y,JP,Central Bank,No,Yes,Buy
+916,2016-11-28,PM,DE,5y,DE,Pension Fund,No,No,Buy
+917,2016-12-02,PM,JP,10y,JP,Broker,Yes,No,Buy
+918,2016-12-01,PM,JP,10y,US,Central Bank,No,No,Sell
+919,2016-11-30,AM,JP,5y,US,Asset Management,No,Yes,Sell
+920,2016-12-02,PM,JP,10y,JP,Central Bank,Yes,No,Buy
+921,2016-11-30,AM,UK,6m,DE,Asset Management,No,Yes,Buy
+922,2016-11-30,AM,FR,3m,DE,Central Bank,No,Yes,Sell
+923,2016-11-30,PM,UK,6m,US,Central Bank,No,Yes,Sell
+924,2016-12-01,PM,JP,30y,JP,Pension Fund,No,No,Buy
+925,2016-12-02,PM,FR,6m,DE,Asset Management,Yes,No,Sell
+926,2016-11-28,AM,FR,6m,JP,Asset Management,No,No,Buy
+927,2016-11-28,AM,JP,5y,DE,Broker,No,No,Sell
+928,2016-12-02,PM,UK,1m,DE,Asset Management,Yes,No,Buy
+929,2016-11-30,PM,UK,1y,UK,Pension Fund,No,Yes,Buy
+930,2016-11-28,PM,UK,5y,US,Central Bank,No,No,Sell
+931,2016-11-29,AM,JP,1y,JP,Pension Fund,No,No,Sell
+932,2016-12-01,PM,UK,6m,JP,Broker,No,No,Buy
+933,2016-12-02,AM,UK,5y,JP,Asset Management,Yes,No,Buy
+934,2016-11-28,PM,UK,1y,US,Asset Management,No,No,Buy
+935,2016-12-02,AM,DE,1y,US,Central Bank,Yes,No,Sell
+936,2016-11-28,AM,FR,6m,DE,Asset Management,No,No,Sell
+937,2016-11-29,PM,DE,3m,US,Asset Management,No,No,Sell
+938,2016-12-02,PM,US,10y,UK,Pension Fund,Yes,No,Buy
+939,2016-11-30,AM,UK,5y,JP,Asset Management,No,Yes,Buy
+940,2016-11-29,AM,JP,6m,JP,Broker,No,No,Sell
+941,2016-12-02,AM,DE,5y,US,Central Bank,Yes,No,Sell
+942,2016-11-28,AM,UK,5y,UK,Pension Fund,No,No,Buy
+943,2016-11-29,AM,US,30y,FR,Central Bank,No,No,Buy
+944,2016-12-01,AM,US,6m,DE,Asset Management,No,No,Buy
+945,2016-11-30,AM,UK,1y,JP,Asset Management,No,Yes,Buy
+946,2016-11-29,AM,FR,3m,JP,Asset Management,No,No,Buy
+947,2016-11-28,PM,UK,1y,US,Central Bank,No,No,Sell
+948,2016-11-30,AM,FR,10y,FR,Central Bank,No,Yes,Sell
+949,2016-11-28,PM,FR,5y,DE,Asset Management,No,No,Buy
+950,2016-11-28,AM,FR,5y,DE,Asset Management,No,No,Buy
+951,2016-11-28,AM,DE,5y,DE,Asset Management,No,No,Sell
+952,2016-11-29,PM,US,30y,US,Central Bank,No,No,Buy
+953,2016-12-01,AM,US,3m,FR,Pension Fund,No,No,Buy
+954,2016-12-02,AM,US,10y,JP,Broker,Yes,No,Buy
+955,2016-11-28,AM,FR,10y,FR,Central Bank,No,No,Buy
+956,2016-12-02,AM,DE,1y,DE,Asset Management,Yes,No,Sell
+957,2016-11-30,AM,FR,6m,JP,Broker,No,Yes,Buy
+958,2016-11-29,AM,DE,6m,JP,Pension Fund,No,No,Buy
+959,2016-11-29,AM,DE,5y,US,Central Bank,No,No,Sell
+960,2016-11-29,AM,FR,5y,DE,Asset Management,No,No,Buy
+961,2016-11-28,PM,UK,1y,DE,Asset Management,No,No,Buy
+962,2016-11-29,AM,DE,5y,DE,Asset Management,No,No,Sell
+963,2016-11-28,AM,DE,5y,US,Central Bank,No,No,Sell
+964,2016-12-02,PM,JP,5y,DE,Central Bank,Yes,No,Sell
+965,2016-11-29,PM,DE,3m,UK,Pension Fund,No,No,Sell
+966,2016-12-02,PM,DE,5y,DE,Broker,Yes,No,Sell
+967,2016-11-30,PM,US,30y,JP,Asset Management,No,Yes,Buy
+968,2016-11-28,PM,JP,6m,FR,Pension Fund,No,No,Sell
+969,2016-12-01,AM,FR,6m,FR,Central Bank,No,No,Sell
+970,2016-12-01,PM,FR,5y,DE,Asset Management,No,No,Buy
+971,2016-11-29,AM,UK,5y,JP,Central Bank,No,No,Buy
+972,2016-11-28,AM,UK,1m,DE,Asset Management,No,No,Buy
+973,2016-11-30,AM,FR,6m,JP,Asset Management,No,Yes,Buy
+974,2016-12-02,PM,DE,6m,UK,Pension Fund,Yes,No,Sell
+975,2016-11-30,AM,FR,6m,US,Central Bank,No,Yes,Sell
+976,2016-11-28,PM,JP,6m,JP,Pension Fund,No,No,Sell
+977,2016-12-01,PM,UK,1y,JP,Asset Management,No,No,Buy
+978,2016-11-30,PM,US,6m,JP,Asset Management,No,Yes,Buy
+979,2016-12-02,PM,DE,5y,DE,Central Bank,Yes,No,Sell
+980,2016-11-28,AM,DE,3m,DE,Broker,No,No,Sell
+981,2016-12-02,PM,DE,5y,JP,Pension Fund,Yes,No,Buy
+982,2016-11-30,AM,US,30y,JP,Central Bank,No,Yes,Buy
+983,2016-12-02,PM,JP,30y,US,Central Bank,Yes,No,Buy
+984,2016-12-01,PM,JP,30y,FR,Central Bank,No,No,Buy
+985,2016-11-28,AM,UK,6m,DE,Central Bank,No,No,Buy
+986,2016-12-01,PM,UK,6m,DE,Broker,No,No,Sell
+987,2016-12-02,PM,DE,6m,DE,Asset Management,Yes,No,Sell
+988,2016-12-02,AM,UK,1m,US,Central Bank,Yes,No,Buy
+989,2016-11-30,AM,JP,1y,DE,Asset Management,No,Yes,Sell
+990,2016-12-01,AM,US,30y,DE,Broker,No,No,Buy
+991,2016-11-28,AM,FR,10y,US,Asset Management,No,No,Buy
+992,2016-11-28,PM,DE,5y,DE,Pension Fund,No,No,Buy
+993,2016-12-01,PM,FR,5y,JP,Asset Management,No,No,Buy
+994,2016-11-28,PM,JP,30y,US,Central Bank,No,No,Sell
+995,2016-11-28,PM,DE,1y,JP,Broker,No,No,Sell
+996,2016-12-01,AM,DE,5y,DE,Pension Fund,No,No,Buy
+997,2016-11-29,AM,FR,10y,UK,Central Bank,No,No,Sell
+998,2016-11-29,AM,FR,10y,JP,Asset Management,No,No,Buy
+999,2016-12-01,PM,DE,5y,FR,Pension Fund,No,No,Sell
+1000,2016-11-28,PM,DE,5y,UK,Asset Management,No,No,Sell
