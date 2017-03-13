@@ -8,9 +8,7 @@ This is a spike to test using ML algorithms against a simulated financial tradin
 **Use case:**
  
   The bank receives requests for quotes (RFQ) for certain sovereign bonds.  
-  The bank has to quote both bid and offer prces but does not know whether counterparty is wanting to 
-  buy or sell until.
-  Purpose of the ML model is to predict whether quote is likely to result in a buy order or sell order 
+  The bank has to quote both bid and offer prces but does not know whether counterparty is wanting to buy or sell until after it has quoted.  The purpose of the ML model is to predict whether quote is likely to result in a buy order or sell order 
   i.e.the intent of the counterparty when requesting the quote
   based on some details about the counterparty, the bond and the time of day and the day   
   (since there is some inkling that counterpartoes may have different behaviour at the end of the week or month).
@@ -28,9 +26,6 @@ library(rpart.plot)
 library(RColorBrewer)
 library(ROCR)
 library('rattle')
-```
-
-```{r}
 ```
 
 Load the source data in a CSV file into a dataframe
@@ -61,7 +56,9 @@ rpart(BuySell ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth +
         method = "class")
 
 fancyRpartPlot(decision.tree.model, cex = 0.6)
+```
 
+```{r}
 # let's use the decision tree model to predict
 (decision.tree.prediction <-
   predict(decision.tree.model, df.test, type = "class"))
@@ -107,7 +104,7 @@ count.fp.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Buy'))
 count.fn.logit <- nrow(filter(df.test,  BuySell=='Buy' & BuySell.logit=='Sell'))
 count.tn.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Sell'))
 
-(accuracy.logit <- (count.tp.logit + count.tn.logit) / count.all)
+accuracy.logit <- (count.tp.logit + count.tn.logit) / count.all
 
 ```
 
