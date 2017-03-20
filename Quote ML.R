@@ -45,7 +45,7 @@ decision.tree.model <-
         data = df.train,
         method = "class")
 
-#fancyRpartPlot(decision.tree.model, cex = 0.6)
+fancyRpartPlot(decision.tree.model, cex = 0.6)
 
 # let's use the decision tree model to predict
 (decision.tree.prediction <-
@@ -70,7 +70,6 @@ precision = count.tp / (count.tp + count.fp)
 recall = count.tp / (count.tp + count.fn)
 
 specificity = count.tn / (count.tn + count.fp)
-
 
 
 logit.model <-
