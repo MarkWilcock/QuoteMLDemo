@@ -1,6 +1,7 @@
 ---
-title: "Bond Quote Example Walkthrough"
+title: "Quote ML demo"
 output: html_document
+  
 ---
 
 This is a spike to test using ML algorithms against a simulated financial trading dataset
@@ -8,7 +9,7 @@ This is a spike to test using ML algorithms against a simulated financial tradin
 **Use case:**
  
   The bank receives requests for quotes (RFQ) for certain sovereign bonds.  
-  The bank has to quote both bid and offer prces but does not know whether counterparty is wanting to buy or sell until after it has quoted.  The purpose of the ML model is to predict whether quote is likely to result in a buy order or sell order 
+  The bank has to quote both bid and offer prices but does not know whether counterparty is wanting to buy or sell until after it has quoted.  The purpose of the ML model is to predict whether quote is likely to result in a buy order or sell order 
   i.e.the intent of the counterparty when requesting the quote
   based on some details about the counterparty, the bond and the time of day and the day   
   (since there is some inkling that counterpartoes may have different behaviour at the end of the week or month).
@@ -18,7 +19,8 @@ This is a spike to test using ML algorithms against a simulated financial tradin
   This is unlike many financial use cases e.g. fraud where the classes are very unbalanced.
 
 
-``````{r, echo=FALSE}
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+library(readr)
 library(readxl)
 library(dplyr)
 library(rpart)
@@ -28,11 +30,15 @@ library(ROCR)
 library('rattle')
 ```
 
-Load the source data in a CSV file into a dataframe
+Load the bond quote source data from a CSV file into a dataframe.
 
 ```{r}
-df <- read.csv(file = "Quote Data.csv", header = TRUE)
-str(df)
+# read in as a tibble rather than a dataframe
+df <- read_csv(file = "Quote Data.csv")
+df <- df %>%
+  mutate(BuySellFlag = ifelse(BuySell == "Buy", 1, 0))
+
+df
 ```
 
 Split data into 70% training and 30% test 
@@ -43,52 +49,55 @@ set.seed(1234)
 df <- mutate(df, tempval = runif(nrow(df)))
 df.train <- filter(df, tempval <= 0.7) %>% select(-tempval)
 df.test <- filter(df, tempval > 0.7) %>% select(-tempval)
+
+df.test
 ```
 
-Let's create a decision tree model
+Create a decision tree model.
 
 ```{r}
 decision.tree.model <-
-rpart(BuySell ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth +
+rpart(BuySellFlag ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth +
         CounterpartyCountry + CounterpartySector + 
         + BondCountry + BondTenor,
         data = df.train,
         method = "class")
 
 fancyRpartPlot(decision.tree.model, cex = 0.6)
+
 ```
 
 ```{r}
 # let's use the decision tree model to predict
-(decision.tree.prediction <-
-  predict(decision.tree.model, df.test, type = "class"))
+decision.tree.prediction <-
+  predict(decision.tree.model, df.test, type = "class")
 
 df.test <- mutate(df.test, BuySell.dtree = decision.tree.prediction)
 
-
 # count of true positives  - can go further to vcalculate  accuracy  etc manually
-count.tp <- nrow(filter(df.test, BuySell == 'Buy' & BuySell.dtree == 'Buy'))
-count.fp <- nrow(filter(df.test, BuySell == 'Sell' & BuySell.dtree == 'Buy'))
-count.fn <- nrow(filter(df.test, BuySell == 'Buy' & BuySell.dtree == 'Sell'))
-count.tn <- nrow(filter(df.test, BuySell == 'Sell' & BuySell.dtree == 'Sell'))
+
+count.tp <- nrow(filter(df.test, BuySellFlag == 1 & BuySell.dtree == 1))
+count.fp <- nrow(filter(df.test, BuySellFlag == 0 & BuySell.dtree == 1))
+count.fn <- nrow(filter(df.test, BuySellFlag == 1 & BuySell.dtree == 0))
+count.tn <- nrow(filter(df.test, BuySellFlag == 0 & BuySell.dtree == 0))
+
 count.all <- nrow(df.test)
-
-(accuracy <- (count.tp + count.tn) / count.all)
-
+accuracy <- (count.tp + count.tn) / count.all
 #precision - what % of items identified were actually in the class
 precision = count.tp / (count.tp + count.fp)
-
 #recall aka sensitivity -  what % of items in the class were identified by the classifier
 recall = count.tp / (count.tp + count.fn)
-
 specificity = count.tn / (count.tn + count.fp)
+
+paste("Decision tree  model accuracy is", sprintf("%.0f %%", 100 * accuracy))
+
 ```
 
-Let's create an equivaluent logistic regression model
+Create an equivalent logistic regression model.
 
 ```{r}
 logit.model <-
-  glm(BuySell ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth + 
+  glm(BuySellFlag ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth + 
         BondCountry + BondTenor + 
         CounterpartyCountry +  CounterpartySector,
       data= df.train,
@@ -96,33 +105,27 @@ logit.model <-
 
 logit.prediction <- predict (logit.model, df.test, type='response')
 
-df.test <- mutate(df.test, BuySell.logit = ifelse(logit.prediction <= .5, 'Buy', 'Sell'))
+df.test <- mutate(df.test, BuySell.logit = ifelse(logit.prediction <= .5, 0, 1))
 
 # count of true positives  - can go further to vcalculate  accuracy  etc manually
-count.tp.logit <- nrow(filter(df.test,  BuySell=='Buy' & BuySell.logit=='Buy'))
-count.fp.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Buy'))
-count.fn.logit <- nrow(filter(df.test,  BuySell=='Buy' & BuySell.logit=='Sell'))
-count.tn.logit <- nrow(filter(df.test,  BuySell=='Sell' & BuySell.logit=='Sell'))
-
+count.tp.logit <- nrow(filter(df.test, BuySellFlag == 1 & BuySell.logit == 1))
+count.fp.logit <- nrow(filter(df.test, BuySellFlag == 0 & BuySell.logit == 1))
+count.fn.logit <- nrow(filter(df.test, BuySellFlag == 1 & BuySell.logit == 0))
+count.tn.logit <- nrow(filter(df.test, BuySellFlag == 0 & BuySell.logit == 0))
 accuracy.logit <- (count.tp.logit + count.tn.logit) / count.all
 
+paste("Logistical model accuracy is", sprintf("%.0f %%", 100 * accuracy.logit))
 ```
 
-Now lets's create the ROC curve for the logistic model
+Create the ROC curve for the logistic model.
 
 ```{r}
-pred <- prediction(logit.prediction, df.test$BuySell)
+pred <- prediction(logit.prediction, df.test$BuySellFlag)
 
 perf <- performance(pred, measure="tpr", x.measure = "fpr")
 
 options(repr.plot.width = 5, repr.plot.height = 3)
 plot(perf, col = rainbow(10), main = "Model performance")
 ```
-
-
-
-```{r}
-```
-
 
 
