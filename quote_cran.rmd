@@ -1,7 +1,6 @@
 ---
-title: "Quote ML demo"
+title: "Quote ML demo - CRAN R with tidyverse implementation"
 output: html_document
-  
 ---
 
 This is a spike to test using ML algorithms against a simulated financial trading dataset
@@ -18,30 +17,37 @@ This is a spike to test using ML algorithms against a simulated financial tradin
   RFQs to crystallise into approximately 50% buy, 50% sell order
   This is unlike many financial use cases e.g. fraud where the classes are very unbalanced.
 
-
 ```{r, echo=FALSE, message = FALSE, warning=FALSE}
 library(readr)
-library(readxl)
 library(dplyr)
+
 library(rpart)
 library(rpart.plot)
-library(RColorBrewer)
 library(ROCR)
 library('rattle')
 ```
+
+# 1. Ingest
 
 Load the bond quote source data from a CSV file into a dataframe.
 
 ```{r}
 # read in as a tibble rather than a dataframe
-df <- read_csv(file = "Quote Data.csv")
+(df <- read_csv(file = "quotedata.csv"))
+```
+
+
+# 2. Feature Engineering
+
+```{r}
 df <- df %>%
+  select(-TradeKey) %>% 
   mutate(BuySellFlag = ifelse(BuySell == "Buy", 1, 0))
 
 df
 ```
 
-Split data into 70% training and 30% test 
+# 3. Split into training and test datasets
 
 ```{r}
 set.seed(1234)
@@ -53,7 +59,7 @@ df.test <- filter(df, tempval > 0.7) %>% select(-tempval)
 df.test
 ```
 
-Create a decision tree model.
+# 4a. Model and predict - decision tree model.
 
 ```{r}
 decision.tree.model <-
@@ -93,7 +99,7 @@ paste("Decision tree  model accuracy is", sprintf("%.0f %%", 100 * accuracy))
 
 ```
 
-Create an equivalent logistic regression model.
+# 4b. Model and predict - logistic regression model.
 
 ```{r}
 logit.model <-
@@ -114,8 +120,10 @@ count.fn.logit <- nrow(filter(df.test, BuySellFlag == 1 & BuySell.logit == 0))
 count.tn.logit <- nrow(filter(df.test, BuySellFlag == 0 & BuySell.logit == 0))
 accuracy.logit <- (count.tp.logit + count.tn.logit) / count.all
 
-paste("Logistical model accuracy is", sprintf("%.0f %%", 100 * accuracy.logit))
+paste("Logistic model accuracy is", sprintf("%.0f %%", 100 * accuracy.logit))
 ```
+
+# 5. Evaluate models
 
 Create the ROC curve for the logistic model.
 
@@ -127,5 +135,3 @@ perf <- performance(pred, measure="tpr", x.measure = "fpr")
 options(repr.plot.width = 5, repr.plot.height = 3)
 plot(perf, col = rainbow(10), main = "Model performance")
 ```
-
-

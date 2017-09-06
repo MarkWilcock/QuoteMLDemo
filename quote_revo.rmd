@@ -1,0 +1,115 @@
+---
+title: "Quote ML demo - Big Data - Using RevoScaleR"
+output: html_document
+---
+
+This is an implementation using RevoScale R functions 
+The technical scenario: the data now too large for CRAN R.
+
+First step - stay with local CSV but replace all CRAN R functions with Rx.. functions
+See the CRAN implementation for all project background details.
+
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+library(RevoScaleR)
+quoteXdfFile <- "xdf/QuoteData.xdf"
+quoteXdfFile2 <- "xdf/QuoteData2.xdf"
+quoteXdfFile3 <- "xdf/QuoteData3.xdf"
+
+```
+
+# 1. Ingest
+
+```{r}
+# read in as a tibble rather than a dataframe
+quote <- rxImport(inData = "quotedata.csv", outFile = quoteXdfFile, overwrite = TRUE)
+rxGetInfo(quote, getVarInfo = TRUE, numRows=3)
+```
+# 2. Feature Engineering
+
+```{r}
+quote2 <-  rxDataStep(
+  inData = quote,
+  outFile = quoteXdfFile2,
+  overwrite = TRUE,
+  varsToDrop = c("TradeKey"),
+  reportProgress = 0,
+  transforms = list(
+    BuySellFlag = ifelse(BuySell == "Buy", 1, 0),
+    TradeDate = as.Date(TradeDate),
+    splitVar = factor(
+      sample(c("Train", "Test"),
+      size = .rxNumRows,
+      replace = TRUE,
+      prob = c(.70, .30)),
+      levels = c("Train", "Test"))
+    )
+)
+
+quote3 <- rxFactors(inData = quote2, 
+          outFile = quoteXdfFile3,
+          sortLevels = TRUE,
+          factorInfo = c("TimeOfDay", "BondCountry", "BondTenor", "CounterpartyCountry", "CounterpartySector", "IsEndOfWeek", "IsEndOfMonth"),
+          overwrite = TRUE,
+          reportProgress = 0)
+
+rxGetInfo(quote3, getVarInfo = TRUE, numRows=3)
+```
+# 3. Split into training and test datasets
+
+```{r}
+set.seed(1234)
+rxSplit(inData = quote3,
+           outFilesBase = "xdf/quoteData",
+           outFileSuffixes = c("Train", "Test"),
+           splitByFactor = "splitVar",
+           overwrite = TRUE,
+           consoleOutput = FALSE, 
+        reportProgress = 0)
+
+train <- RxXdfData("xdf/quoteData.splitVar.Train.xdf")
+test <- RxXdfData("xdf/quoteData.splitVar.Test.xdf")
+
+```
+
+# 4a. Model and predict - decision tree model.
+
+```{r}
+
+formula <- "BuySellFlag ~ TimeOfDay + IsEndOfWeek + IsEndOfMonth + 
+        BondCountry + BondTenor + 
+        CounterpartyCountry +  CounterpartySector"
+model_dtree <- rxDTree(formula = formula, data = train, reportProgress = 0)
+
+# let's use the decision tree model to predict
+pred_dtree <- rxPredict(model_dtree, test, overwrite = TRUE, reportProgress = 0)
+
+auc_dtree <- rxAuc(rxRoc("BuySellFlag", "BuySellFlag_Pred", test))
+paste("AUC of Decision Tree Model is:", sprintf("%.0f %%",auc_dtree * 100))
+```
+
+# 4b. Model and predict - logistic regression model.
+
+```{r}
+model_logit <- rxLogit(formula = formula, data = train, reportProgress = 0)
+
+pred_logit <- rxPredict(model_logit, 
+                        test, 
+                        type = "response",
+                        predVarNames = "BuySellFlag_Pred_Logit",
+                        overwrite = TRUE,
+                        reportProgress = 0)
+
+auc_dtree <- rxAuc(rxRoc("BuySellFlag", "BuySellFlag_Pred_Logit", test))
+paste("AUC of logistic regression Model is:", sprintf("%.0f %%",auc_dtree * 100))
+
+```
+
+# 5. Compare models
+
+```{r}
+rxRocCurve("BuySellFlag",
+            predVarNames = c("BuySellFlag_Pred", "BuySellFlag_Pred_Logit"),
+            data = test,
+            title = "ROC curve - Logistic Regression vs Decision Tree")          
+```
